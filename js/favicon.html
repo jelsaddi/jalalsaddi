@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Create Favicon</title>
+</head>
+<body>
+<script>
+  const canvas = document.createElement('canvas');
+  canvas.width = 32;
+  canvas.height = 32;
+  const ctx = canvas.getContext('2d');
+
+  // Draw circle
+  ctx.beginPath();
+  ctx.arc(16, 16, 16, 0, Math.PI * 2); // x, y, radius, startAngle, endAngle
+  ctx.closePath();
+  ctx.fillStyle = '#8a5cdb';
+  ctx.fill();
+
+  // Optional: Add initials
+  ctx.fillStyle = '#fff';
+  ctx.font = 'bold 20px sans-serif';
+  ctx.textAlign = 'center';
+  ctx.textBaseline = 'middle';
+  ctx.fillText('JS', 16, 16);
+
+  // Convert to data URL and download
+  const link = document.createElement('a');
+  link.href = canvas.toDataURL('image/png');
+  link.download = 'favicon.png';
+  link.click();
+</script>
+</body>
+</html>
