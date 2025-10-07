@@ -1,1 +1,0 @@
-window.__NUXT__=(function(a,b,c){return {staticAssetsBase:"\u002F_nuxt\u002Fstatic\u002F1759841936",layout:"default",error:a,serverRendered:b,routePath:"\u002Fde\u002Fprojects\u002Fgerman-nouns",config:{_app:{basePath:"\u002F",assetsPath:"\u002F_nuxt\u002F",cdnURL:a}},colorMode:{preference:c,value:c,unknown:b}}}(null,true,"system"));
