@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/de/projects/voting-system", {data:[{meta:{title:"Voting-System",description:"Eine Full-Stack-Voting-App, entwickelt mit Vue.js und Spring Boot.",image:"voting.jpeg",date:"2025-08-30"},html:""}],fetch:{},mutations:void 0});

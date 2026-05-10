@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/de/projects/mein-weg-in-den-e-commerce", {data:[{meta:{title:"Was ist E-Commerce? Ein Einsteiger-Guide",description:"Ein Einsteiger-Guide zu E-Commerce-Modellen, technischen Grundlagen und Plattform-Auswahl, einschließlich B2B, B2C und Enterprise-Lösungen.",image:"ecommerceGuide.jpeg",date:"2025-06-20"},html:""}],fetch:{},mutations:void 0});

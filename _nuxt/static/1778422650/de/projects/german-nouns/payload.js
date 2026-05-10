@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/de/projects/german-nouns", {data:[{meta:{title:"App für deutsche Substantive",description:"Eine Flutter-App, die Nutzern hilft, deutsche Substantive zu lernen.",image:"artikelMeister.jpeg",date:"2025-07-15"},html:""}],fetch:{},mutations:void 0});
