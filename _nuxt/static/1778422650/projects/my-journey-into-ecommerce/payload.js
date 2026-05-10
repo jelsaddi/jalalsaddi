@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/my-journey-into-ecommerce", {data:[{meta:{title:"What Is E-Commerce? A Beginner's Guide",description:"An introductory guide to e-commerce models, technical foundations, and platform choices, including B2B, B2C, and enterprise solutions.",image:"ecommerceGuide.jpeg",date:"2025-06-20"},html:""}],fetch:{},mutations:void 0});

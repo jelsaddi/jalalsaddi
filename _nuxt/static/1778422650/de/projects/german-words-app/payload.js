@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/de/projects/german-words-app", {data:[{meta:{title:"App für deutsche Substantive, Verben & Adjektive",description:"Eine Flutter-App, die Nutzern hilft, deutsche Substantive, Verben und Adjektive zu lernen.",image:"germanWordsApp.jpeg",date:"2025-09-01"},html:""}],fetch:{},mutations:void 0});

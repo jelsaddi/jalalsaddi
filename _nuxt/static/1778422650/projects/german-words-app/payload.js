@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/german-words-app", {data:[{meta:{title:"German Nouns, Verbs & Adjectives App",description:"A Flutter app to help users learn German nouns, verbs and adjectives.",image:"germanWordsApp.jpeg",date:"2025-09-01"},html:""}],fetch:{},mutations:void 0});

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/german-nouns", {data:[{meta:{title:"German Nouns App",description:"A Flutter app to help users learn German nouns.",image:"artikelMeister.jpeg",date:"2025-07-15"},html:""}],fetch:{},mutations:void 0});
