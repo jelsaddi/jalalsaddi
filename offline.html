@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jalal El Saddi — Full-Stack Developer</title>
+  <meta name="description" content="Full-Stack Developer with 15+ years in enterprise e-commerce, Java backends, and modern frontend frameworks." />
+  <meta name="robots" content="noindex" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" crossorigin="anonymous" />
+
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --purple:       #7B3FE4;
+      --purple-dark:  #6328b8;
+      --purple-light: #D7BDE2;
+      --purple-faint: rgba(123,63,228,0.08);
+      --bg:           #f3f4f8;
+      --text:         #333333;
+      --text-dark:    #222222;
+      --text-muted:   #555555;
+      --white:        #ffffff;
+      --shadow:       0 6px 24px rgba(123,63,228,0.13);
+    }
+
+    html, body {
+      width: 100%; height: 100%;
+      font-family: 'Open Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+
+    /* ── PAGE ─────────────────────────────────────────────── */
+    .page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem 1rem;
+    }
+
+    /* ── CARD ─────────────────────────────────────────────── */
+    .card {
+      background: var(--white);
+      border-radius: 24px;
+      box-shadow: var(--shadow);
+      padding: 2.8rem 2.4rem 2.4rem;
+      max-width: 480px;
+      width: 100%;
+      text-align: center;
+      animation: cardIn 0.7s cubic-bezier(.22,1,.36,1) both;
+    }
+
+    @keyframes cardIn {
+      from { opacity: 0; transform: translateY(24px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── AVATAR ───────────────────────────────────────────── */
+    .avatar-wrap {
+      position: relative;
+      display: inline-block;
+      margin-bottom: 1.4rem;
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid var(--purple-light);
+      box-shadow: 0 0 0 6px var(--purple-faint);
+      display: block;
+    }
+
+    /* ── NAME ─────────────────────────────────────────────── */
+    .name {
+      font-family: 'Saira Extra Condensed', sans-serif;
+      font-size: 2.2rem;
+      font-weight: 800;
+      color: var(--purple);
+      letter-spacing: 0.5px;
+      line-height: 1.1;
+      margin-bottom: 0.3rem;
+      animation: fadeUp 0.6s 0.15s both;
+    }
+
+    .role {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-dark);
+      margin-bottom: 0.6rem;
+      animation: fadeUp 0.6s 0.25s both;
+    }
+
+    .summary {
+      font-size: 0.85rem;
+      line-height: 1.65;
+      color: var(--text-muted);
+      max-width: 380px;
+      margin: 0 auto 1.4rem;
+      animation: fadeUp 0.6s 0.35s both;
+    }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(10px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── OFFLINE NOTICE ───────────────────────────────────── */
+    .offline-notice {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: rgba(123,63,228,0.07);
+      border: 1px solid rgba(123,63,228,0.2);
+      border-radius: 30px;
+      padding: 0.4rem 1rem;
+      font-size: 0.78rem;
+      color: var(--purple-dark);
+      font-weight: 600;
+      margin-bottom: 1.6rem;
+      animation: fadeUp 0.6s 0.4s both;
+    }
+
+    .offline-notice i { font-size: 0.85rem; }
+
+    /* ── CONTACT ──────────────────────────────────────────── */
+    .contact {
+      margin-bottom: 1.4rem;
+      animation: fadeUp 0.6s 0.45s both;
+    }
+
+    .contact a {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      text-decoration: none;
+      color: var(--text-dark);
+      font-size: 0.85rem;
+      padding: 0.45rem 0.9rem;
+      border-radius: 8px;
+      background: rgba(0,0,0,0.03);
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .contact a:hover {
+      background: var(--purple-light);
+      color: #333;
+    }
+
+    /* ── ACTIONS ──────────────────────────────────────────── */
+    .actions {
+      display: flex;
+      gap: 0.8rem;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-bottom: 1.4rem;
+      animation: fadeUp 0.6s 0.5s both;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.7rem 1.4rem;
+      border-radius: 30px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-decoration: none;
+      cursor: pointer;
+      border: none;
+      transition: transform 0.2s, background 0.2s, box-shadow 0.2s;
+    }
+
+    .btn-primary {
+      background: var(--purple);
+      color: var(--white);
+    }
+    .btn-primary:hover {
+      background: var(--purple-dark);
+      transform: scale(1.04);
+      box-shadow: 0 6px 16px rgba(123,63,228,0.3);
+    }
+
+    .btn-outline {
+      background: var(--white);
+      color: var(--purple);
+      border: 2px solid var(--purple);
+    }
+    .btn-outline:hover {
+      background: var(--purple-light);
+      color: var(--purple-dark);
+      transform: scale(1.04);
+    }
+
+    /* ── TAGLINE ──────────────────────────────────────────── */
+    .tagline {
+      font-style: italic;
+      font-size: 0.92rem;
+      color: var(--text-dark);
+      margin-bottom: 1.4rem;
+      animation: fadeUp 0.6s 0.55s both;
+    }
+
+    /* ── SOCIALS ──────────────────────────────────────────── */
+    .socials {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      font-size: 1.2rem;
+      animation: fadeUp 0.6s 0.6s both;
+    }
+
+    .socials a {
+      color: var(--text-dark);
+      text-decoration: none;
+      transition: color 0.2s, transform 0.2s;
+    }
+
+    .socials a:hover {
+      color: var(--purple);
+      transform: scale(1.2);
+    }
+
+    /* ── RETRY BUTTON ─────────────────────────────────────── */
+    .retry-wrap {
+      margin-top: 2rem;
+      animation: fadeUp 0.6s 0.65s both;
+    }
+
+    .retry-wrap p {
+      font-size: 0.78rem;
+      color: var(--text-muted);
+      margin-bottom: 0.5rem;
+    }
+
+    .btn-retry {
+      background: transparent;
+      border: 1px solid rgba(123,63,228,0.3);
+      color: var(--purple);
+      padding: 0.5rem 1.2rem;
+      border-radius: 20px;
+      font-size: 0.82rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background 0.2s, border-color 0.2s;
+      font-family: 'Open Sans', sans-serif;
+    }
+
+    .btn-retry:hover {
+      background: var(--purple-faint);
+      border-color: var(--purple);
+    }
+
+    /* ── RESPONSIVE ───────────────────────────────────────── */
+    @media (min-width: 600px) {
+      .card { padding: 3.2rem 3rem 2.8rem; }
+      .avatar { width: 150px; height: 150px; }
+      .name { font-size: 2.6rem; }
+    }
+
+    @media (max-width: 400px) {
+      .card { padding: 2rem 1.4rem; border-radius: 16px; }
+      .name { font-size: 1.9rem; }
+      .actions { flex-direction: column; align-items: center; }
+      .btn { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="page">
+  <div class="card">
+
+    <div class="avatar-wrap">
+      <img src="profile.png"
+           alt="Jalal El Saddi"
+           class="avatar"
+           onerror="this.style.display='none'" />
+    </div>
+
+    <h1 class="name">Jalal El Saddi</h1>
+    <p class="role">Full-Stack Developer</p>
+
+    <p class="summary">
+      15+ years in enterprise e-commerce, Java backends, and modern frontend frameworks.
+      Specialized in marketplace platforms (SAP Hybris, Intershop ICM), microservices
+      with Spring Boot and Quarkus, product data pipelines, and cloud-native services.
+    </p>
+
+    <div class="offline-notice">
+      <i class="fas fa-wifi"></i>
+      Site temporarily unavailable — try again shortly
+    </div>
+
+    <div class="contact">
+      <a href="mailto:jalalsaddi@gmail.com">
+        <i class="fas fa-envelope"></i> jalalsaddi@gmail.com
+      </a>
+    </div>
+
+    <div class="actions">
+      <a href="https://jalalsaddi.de" class="btn btn-primary">
+        <i class="fas fa-sync-alt"></i> Try Again
+      </a>
+      <a href="https://www.linkedin.com/in/jalal-saddi-58750662/"
+         target="_blank" rel="noopener"
+         class="btn btn-outline">
+        <i class="fab fa-linkedin"></i> LinkedIn
+      </a>
+    </div>
+
+    <p class="tagline">I believe in clear words and honest work.</p>
+
+    <footer class="socials">
+      <a href="https://www.linkedin.com/in/jalal-saddi-58750662/"
+         target="_blank" rel="noopener" aria-label="LinkedIn">
+        <i class="fab fa-linkedin"></i>
+      </a>
+    </footer>
+
+    <div class="retry-wrap">
+      <p>Page will auto-retry in <span id="countdown">30</span>s</p>
+      <button class="btn-retry" onclick="retryNow()">
+        <i class="fas fa-redo"></i> Retry now
+      </button>
+    </div>
+
+  </div>
+</div>
+
+<script>
+  const MAIN_URL = 'https://jalalsaddi.de';
+  let seconds = 30;
+  const el = document.getElementById('countdown');
+
+  const tick = setInterval(() => {
+    seconds--;
+    if (el) el.textContent = seconds;
+    if (seconds <= 0) {
+      clearInterval(tick);
+      tryReload();
+    }
+  }, 1000);
+
+  function retryNow() {
+    clearInterval(tick);
+    tryReload();
+  }
+
+  function tryReload() {
+    fetch(MAIN_URL, { method: 'HEAD', cache: 'no-store', mode: 'no-cors' })
+      .then(() => { window.location.href = MAIN_URL; })
+      .catch(() => {
+        seconds = 30;
+        if (el) el.textContent = seconds;
+        const t = setInterval(() => {
+          seconds--;
+          if (el) el.textContent = seconds;
+          if (seconds <= 0) { clearInterval(t); tryReload(); }
+        }, 1000);
+      });
+  }
+</script>
+
+</body>
+</html>
