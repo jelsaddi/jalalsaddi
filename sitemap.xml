@@ -1,115 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/</loc>
+    <loc>https://jalalsaddi.de/</loc>
     <changefreq>monthly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/resume_index</loc>
+    <loc>https://jalalsaddi.de/resume_index</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/blog</loc>
+    <loc>https://jalalsaddi.de/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de</loc>
+    <loc>https://jalalsaddi.de/de</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de/resume_index</loc>
+    <loc>https://jalalsaddi.de/de/resume_index</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de/blog</loc>
+    <loc>https://jalalsaddi.de/de/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/projects/docker-in-practice</loc>
+    <loc>https://jalalsaddi.de/projects/docker-in-practice</loc>
     <lastmod>2025-10-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/projects/voting-system</loc>
+    <loc>https://jalalsaddi.de/projects/voting-system</loc>
     <lastmod>2025-08-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/projects/german-nouns</loc>
+    <loc>https://jalalsaddi.de/projects/german-nouns</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/projects/german-words-app</loc>
+    <loc>https://jalalsaddi.de/projects/german-words-app</loc>
     <lastmod>2025-09-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/projects/my-journey-into-ecommerce</loc>
+    <loc>https://jalalsaddi.de/projects/my-journey-into-ecommerce</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/projects/azure-functions-in-practice</loc>
+    <loc>https://jalalsaddi.de/projects/azure-functions-in-practice</loc>
     <lastmod>2025-10-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/projects/hexagonal-architecture-in-practice</loc>
+    <loc>https://jalalsaddi.de/projects/hexagonal-architecture-in-practice</loc>
     <lastmod>2025-10-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de/projects/docker-in-der-praxis</loc>
+    <loc>https://jalalsaddi.de/de/projects/docker-in-der-praxis</loc>
     <lastmod>2025-10-14</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de/projects/voting-system</loc>
+    <loc>https://jalalsaddi.de/de/projects/voting-system</loc>
     <lastmod>2025-08-30</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de/projects/german-nouns</loc>
+    <loc>https://jalalsaddi.de/de/projects/german-nouns</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de/projects/german-words-app</loc>
+    <loc>https://jalalsaddi.de/de/projects/german-words-app</loc>
     <lastmod>2025-09-01</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de/projects/mein-weg-in-den-e-commerce</loc>
+    <loc>https://jalalsaddi.de/de/projects/mein-weg-in-den-e-commerce</loc>
     <lastmod>2025-06-20</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de/projects/azure-functions-in-practice</loc>
+    <loc>https://jalalsaddi.de/de/projects/azure-functions-in-practice</loc>
     <lastmod>2025-10-16</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://jelsaddi.github.io/jalalsaddi/de/projects/hexagonal-architecture-in-practice</loc>
+    <loc>https://jalalsaddi.de/de/projects/hexagonal-architecture-in-practice</loc>
     <lastmod>2025-10-22</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>

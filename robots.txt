@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://jelsaddi.github.io/jalalsaddi/sitemap.xml
+Sitemap: https://jalalsaddi.de/sitemap.xml
