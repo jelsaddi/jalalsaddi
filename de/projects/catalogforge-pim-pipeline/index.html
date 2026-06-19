@@ -1,0 +1,184 @@
+<!doctype html>
+<html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
+  <head>
+    <meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="og:site_name" property="og:site_name" content="Jalal El Saddi"><meta data-n-head="ssr" data-hid="og:url" property="og:url" content="https://jalalsaddi.de/"><meta data-n-head="ssr" name="author" content="Jalal El Saddi"><meta data-n-head="ssr" name="robots" content="index, follow"><meta data-n-head="ssr" data-hid="description" name="description" content="Wie ich eine Python-Pipeline entwickelt habe, um große PIM-Variantenexporte zu filtern, anzureichern und zu paketieren — mit SFTP-Download, Excel-gesteuerter Filterung nach SKU oder EAN, Kategoriebaumauflösung und Thread-basierter Anreicherung via orjson."><meta data-n-head="ssr" data-hid="og:title" property="og:title" content="CatalogForge — Eine PIM-Datenpipeline, die echte Skalierung beherrscht | Jalal El Saddi"><meta data-n-head="ssr" data-hid="og:description" property="og:description" content="Wie ich eine Python-Pipeline entwickelt habe, um große PIM-Variantenexporte zu filtern, anzureichern und zu paketieren — mit SFTP-Download, Excel-gesteuerter Filterung nach SKU oder EAN, Kategoriebaumauflösung und Thread-basierter Anreicherung via orjson."><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://jelsaddi.github.io/jalalsaddi/catalogForge.jpeg"><meta data-n-head="ssr" data-hid="og:type" property="og:type" content="article"><meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary_large_image"><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="CatalogForge — Eine PIM-Datenpipeline, die echte Skalierung beherrscht | Jalal El Saddi"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="Wie ich eine Python-Pipeline entwickelt habe, um große PIM-Variantenexporte zu filtern, anzureichern und zu paketieren — mit SFTP-Download, Excel-gesteuerter Filterung nach SKU oder EAN, Kategoriebaumauflösung und Thread-basierter Anreicherung via orjson."><meta data-n-head="ssr" data-hid="twitter:image" name="twitter:image" content="https://jelsaddi.github.io/jalalsaddi/catalogForge.jpeg"><title>CatalogForge — Eine PIM-Datenpipeline, die echte Skalierung beherrscht | Jalal El Saddi</title><base href="/"><link data-n-head="ssr" rel="canonical" href="https://jalalsaddi.de"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="favicon.ico"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/solid.min.js"></script><script data-n-head="ssr" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script><script data-n-head="ssr" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script><link rel="preload" href="/_nuxt/b208afb.js" as="script"><link rel="preload" href="/_nuxt/af14cf4.js" as="script"><link rel="preload" href="/_nuxt/e8e1faa.js" as="script"><link rel="preload" href="/_nuxt/07e1634.js" as="script"><link rel="preload" href="/_nuxt/a343a33.js" as="script"><style data-vue-ssr-id="629c04aa:0 ff988300:0 306ea3c9:0 43c9d6d5:0 43c9d6d5:1 2bef1f10:0 9ea8b0be:0 220dc3ff:0">body{font-family:"Open Sans",serif;margin:0;padding:0}body,h1,h2,h3,h4,h5,h6{color:#343a40;color:var(--color-text-primary)}h1,h2,h3,h4,h5,h6{font-family:"Saira Extra Condensed",serif;font-weight:700;text-transform:uppercase}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}.subheading{font-family:"Saira Extra Condensed",serif;font-size:1.35rem;font-weight:500;text-transform:uppercase}.list-social-icons a{color:#7b5fc0;color:var(--color-primary)}.list-social-icons a:hover{color:#5e3d85;color:var(--color-primary-hover)}.list-social-icons a .fa-lg{font-size:1.75rem}.list-icons{font-size:3rem}.list-icons .list-inline-item i:hover{color:#5e3d85;color:var(--color-primary-hover)}#sideNav .navbar-nav .nav-item .nav-link{font-weight:600;text-transform:uppercase}@media (min-width:992px){#sideNav{display:flex;flex-direction:column;height:100vh;left:0;position:fixed;text-align:center;top:0;width:17rem}#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}#sideNav .navbar-brand .img-profile{border:.5rem solid hsla(0,0%,100%,.2);max-height:10rem;max-width:10rem}#sideNav .navbar-collapse{align-items:flex-start;display:flex;flex-grow:0;margin-bottom:auto;width:100%}#sideNav .navbar-collapse .navbar-nav{flex-direction:column;width:100%}#sideNav .navbar-collapse .navbar-nav .nav-item,#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}section.resume-section{border-bottom:1px solid #868e96;border-bottom:1px solid var(--color);padding-bottom:5rem!important;padding-top:5rem!important}section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-bottom:3rem!important;padding-top:3rem!important}}.bg-primary{background-color:#7b5fc0!important;background-color:var(--color-primary)!important}.text-primary{color:#6a4ca0!important;color:var(--color-secondary)!important}a{color:#6a4ca0;color:var(--color-secondary)}a:active,a:focus,a:hover{color:#5e3d85;color:var(--color-primary-hover)}.vue-typer .custom.char{color:#343a40;color:var(--color-text-primary)}.card-body,.card-title{color:#868e96}:root{--color:#868e96;--color-primary:#7b5fc0;--color-secondary:#6a4ca0;--color-primary-hover:#5e3d85;--color-text-primary:#343a40;--color-text-secondary:#e2e2e2;--color-text-third:#343a40;--bg:#f3f5f4;--bg-secondary:#fff;--border-color:#ddd}.dark-mode{--color:#ebf4f1;--color-primary:#9d7de0;--color-secondary:#b89ee8;--color-primary-hover:#7b5fc0;--color-text-primary:#fff;--color-text-secondary:#e2e2e2;--bg:#081927;--bg-secondary:#071521;--border-color:#0d2538}body{background-color:#f3f5f4;background-color:var(--bg);color:#868e96;color:var(--color);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-seriff;transition:background-color .3s}a{color:#7b5fc0;color:var(--color-primary)}.nuxt-progress{background-color:#3b8070;height:2px;left:0;opacity:1;position:fixed;right:0;top:0;transition:width .1s,opacity .4s;width:0;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.blog-layout{display:flex;flex-direction:column;min-height:100vh}.main-content{display:flex;flex:1;flex-direction:column}.content{flex:1}.blog-header[data-v-7741caf7]{background:inherit;position:sticky;text-align:center;top:0;z-index:1000}.blog-header-title[data-v-7741caf7]{color:#fff;font-family:Pacifico,cursive,"Saira Extra Condensed",serif;font-size:2rem;font-weight:700;letter-spacing:1px;margin:0;text-shadow:0 2px 8px rgba(0,0,0,.12)}.back-resume-btn[data-v-7741caf7]{background:hsla(0,0%,100%,.1);border-radius:.25rem;color:#fff;font-size:.85rem;font-weight:600;padding:.3rem .75rem;position:absolute;right:1.5rem;-webkit-text-decoration:none;text-decoration:none;top:50%;transform:translateY(-50%);transition:background .2s}.back-resume-btn[data-v-7741caf7]:hover{background:hsla(0,0%,100%,.25)}@media (max-width:767px){.blog-header[data-v-7741caf7]{padding:1.2rem 1rem 1rem}.blog-header-title[data-v-7741caf7]{font-size:1.3rem;margin-bottom:.5rem}.back-resume-btn[data-v-7741caf7]{background:hsla(0,0%,100%,.15);display:inline-block;font-size:.9rem;margin-top:.5rem;position:static;transform:none}}.breadcrumb-container[data-v-6d559f88]{margin:.5rem 1rem}.breadcrumb[data-v-6d559f88]{background:0 0;display:flex;flex-wrap:nowrap;list-style:none;margin:0;padding:0;white-space:nowrap}.breadcrumb-item+.breadcrumb-item[data-v-6d559f88]:before{color:#666;content:">";padding:0 .5rem}.breadcrumb-item a[data-v-6d559f88]{color:var(--color-primary);-webkit-text-decoration:none;text-decoration:none}.breadcrumb-item.active[data-v-6d559f88]{color:#999}@media (max-width:767px){.breadcrumb-container[data-v-6d559f88]{font-size:.85rem;padding:.5rem .75rem}.breadcrumb-item+.breadcrumb-item[data-v-6d559f88]:before{padding:0 .25rem}.breadcrumb[data-v-6d559f88]{font-size:.85rem}.breadcrumb-item a[data-v-6d559f88],.breadcrumb-item span[data-v-6d559f88]{display:inline-block;max-width:120px;overflow:hidden;text-overflow:ellipsis;vertical-align:middle;white-space:nowrap}}.project-title[data-v-1c9a93a8]{font-size:2rem;font-weight:600;line-height:1.3;margin-bottom:2rem;text-align:center}.markdown-post{color:#2d2d2d;font-size:1.05rem;line-height:1.8;margin:0 auto;max-width:850px}.markdown-post h1{display:none}.markdown-post h2{border-bottom:1px solid #eaeaea;color:#7b5fc0;font-size:1.5rem;font-weight:600;margin-bottom:.8rem;margin-top:2.4rem;padding-bottom:.4rem}.markdown-post h3{color:#555;font-size:1.15rem;font-weight:600;margin-bottom:.5rem;margin-top:1.6rem}.markdown-post p{margin:.6rem 0 1rem}.markdown-post ol,.markdown-post ul{margin:.5rem 0 1rem 1.5rem}.markdown-post li{margin-bottom:.4rem}.markdown-post table{border-collapse:collapse;font-size:.95rem;margin:1.4rem 0;width:100%}.markdown-post th{background:#f5f0ff;border:1px solid #ddd;font-weight:600;padding:.6rem .9rem;text-align:left}.markdown-post td{border:1px solid #eee;padding:.5rem .9rem}.markdown-post tr:hover td{background:#faf8ff}.markdown-post pre.hljs{border-radius:.5rem;font-size:.92rem;line-height:1.6;margin:1.2rem 0;overflow-x:auto;padding:1.1rem 1.3rem;position:relative}.markdown-post pre.hljs code{background:0 0;font-family:"Fira Code","Cascadia Code",Consolas,monospace;font-size:inherit;padding:0}.markdown-post .code-lang{color:#cdd6f4;font-family:"Fira Code",Consolas,monospace;font-size:.72rem;font-weight:600;letter-spacing:.06em;opacity:.5;position:absolute;right:.8rem;text-transform:uppercase;top:.4rem}.markdown-post code{background:#ede9f8;border-radius:.25rem;color:#5a3e8e;font-family:"Fira Code",Consolas,monospace;font-size:.9rem;padding:.15rem .4rem}.markdown-post blockquote{background:#f9f6ff;border-left:4px solid #7b5fc0;border-radius:0 .4rem .4rem 0;color:#555;margin:1.2rem 0;padding:.6rem 1.2rem}.markdown-post hr{border:none;border-top:1px solid #eaeaea;margin:2.2rem 0}.markdown-post strong{font-weight:600}.dark-mode .markdown-post{color:#e0e0e0}.dark-mode .markdown-post h2{border-bottom-color:#333;color:#c4a7f5}.dark-mode .markdown-post h3{color:#aaa}.dark-mode .markdown-post th{background:#2a1f40;border-color:#444;color:#ddd}.dark-mode .markdown-post td{border-color:#333;color:#ccc}.dark-mode .markdown-post tr:hover td{background:#1e1e2e}.dark-mode .markdown-post code{background:#2d2d3e;color:#c4a7f5}.dark-mode .markdown-post blockquote{background:#1a1330;border-left-color:#9b72f0;color:#bbb}.dark-mode .markdown-post li,.dark-mode .markdown-post p{color:#e0e0e0}</style><link rel="preload" href="/_nuxt/static/1781870739/de/projects/catalogforge-pim-pipeline/state.js" as="script"><link rel="preload" href="/_nuxt/static/1781870739/de/projects/catalogforge-pim-pipeline/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1781870739/manifest.js" as="script">
+  </head>
+  <body>
+    <script data-n-head="ssr" data-hid="nuxt-color-mode-script" data-pbody="true">!function(){"use strict";var e=window,t=document,s=t.documentElement,r=["dark","light"],n=function(){for(var e="nuxt-color-mode=",s=t.cookie.split(";"),r=0;r<s.length;r++){for(var n=s[r];" "===n.charAt(0);)n=n.substring(1,n.length);if(0===n.indexOf(e))return n.substring(16,n.length)}return null}()||"system",a="system"===n?i():n;function c(e){var t=e+"-mode";s.classList?s.classList.add(t):s.className+=" "+t}function o(t){return e.matchMedia("(prefers-color-scheme"+t+")")}function i(){if(e.matchMedia&&"not all"!==o("").media)for(var t of r)if(o(":"+t).matches)return t;return"light"}c(a),e.__NUXT_COLOR_MODE__={preference:n,value:a,getColorScheme:i,addClass:c,removeClass:function(e){var t=e+"-mode";s.classList?s.classList.remove(t):s.className=s.className.replace(new RegExp(t,"g"),"")}}}()</script><div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div class="blog-layout"><header class="blog-header bg-primary text-white" data-v-7741caf7><h1 class="blog-header-title" data-v-7741caf7>Blog & Projects</h1> <a href="/de/" class="back-resume-btn nuxt-link-active" data-v-7741caf7>
+    Home
+  </a></header> <nav aria-label="breadcrumb" class="breadcrumb-container" data-v-6d559f88><ol class="breadcrumb" data-v-6d559f88><li class="breadcrumb-item" data-v-6d559f88><a href="/" class="nuxt-link-active" data-v-6d559f88>
+        Home
+      </a></li><li class="breadcrumb-item" data-v-6d559f88><a href="/blog" data-v-6d559f88>
+        Blog
+      </a></li><li class="breadcrumb-item active" data-v-6d559f88><span data-v-6d559f88>CatalogForge — Eine PIM-Datenpipeline, die echte Skalierung beherrscht</span></li></ol></nav> <main class="main-content"><div class="container content"><main class="container flex-grow-1" style="padding-top:8rem;padding-bottom:5.5rem" data-v-1c9a93a8><h1 class="project-title" data-v-1c9a93a8>CatalogForge — Eine PIM-Datenpipeline, die echte Skalierung beherrscht</h1> <div class="markdown-post" data-v-1c9a93a8><h1>CatalogForge — Eine PIM-Datenpipeline, die echte Skalierung beherrscht</h1>
+<h2>Das Problem</h2>
+<p>Jeder große E-Commerce-Betrieb steht irgendwann vor derselben unspektakulären Herausforderung: Der Produktkatalog ist ein Durcheinander. Nicht weil niemand aufgepasst hat, sondern weil Daten sich ansammeln. Varianten vermehren sich. Attributschlüssel werden von verschiedenen Teams über verschiedene Jahre hinweg hinzugefügt. Kategoriebäume wachsen in alle Richtungen. Und wenn man einen sauberen, angereicherten, gefilterten Teilbestand dieses Katalogs für ein nachgelagertes System braucht — eine Suchmaschine, einen Marktplatz-Feed, ein Data Warehouse — stellt man fest, dass der Rohexport eine mehrgigabyte große NDJSON-Datei ist, die kein Tabellenkalkulationsprogramm öffnen wird und kein naives Skript in vernünftiger Zeit verarbeitet.</p>
+<p>Das war die Situation, in der ich arbeitete. Das PIM-System exportierte Varianten als zeilengetrennte JSON-Daten. Hunderttausende von Einträgen. Labels in einer separaten Lookup-Datei gespeichert. Kategorien in einer Baumstruktur, die für jedes Produkt vom Blatt bis zur Wurzel durchlaufen werden musste. Und das Team musste sagen können: "Gib mir die angereicherten Daten für diese 200 EANs" — aus einer Excel-Datei, in Minuten, zuverlässig.</p>
+<p>Also habe ich CatalogForge entwickelt.</p>
+<blockquote>Hinweis: Alle Attributschlüssel, Feldnamen und Daten in diesem Artikel sind zur Veranschaulichung erfunden. Sie spiegeln nicht das tatsächliche Schema eines Systems wider, mit dem ich gearbeitet habe.</blockquote>
+<hr>
+<h2>Was die Pipeline tut</h2>
+<p>Die Pipeline hat vier Schritte, klar voneinander getrennt:</p>
+<pre class="hljs"><code class="language-text">Schritt 0  SFTP-Download + .gz-Dekomprimierung   (wenn Remote-Quelle konfiguriert)
+Schritt 1  Varianten nach SKU oder GTIN/EAN filtern  (oder alles durchleiten)
+Schritt 2  Anreicherung: Labels + Kategoriebaum in einem einzigen Durchlauf
+Schritt 3  Ausgabe zippen + Zwischendateien bereinigen
+</code></pre>
+<p>Zwei Modi decken die beiden realen Anwendungsfälle ab:</p>
+<p><strong>Vollständiger Modus</strong> — den gesamten Variantenexport unverändert anreichern. Keine Filterung. Nützlich für eine nächtliche Auffrischung des vollständigen Katalogs.</p>
+<p><strong>Gefilterter Modus</strong> — eine Excel-Datei mit einer Liste von GTINs oder SKUs in Spalte A bereitstellen. Die Pipeline extrahiert genau diese Varianten aus der Gesamtdatei, reichert sie an und liefert ein Zip. Nützlich für Ad-hoc-Anfragen, QA und Marktplatz-Teilmengen-Feeds.</p>
+<hr>
+<h2>Schritt 0 — SFTP mit intelligentem Caching</h2>
+<p>Die Quelldateien liegen auf einem Remote-SFTP-Server als gzip-komprimierte JSON-Dateien. Der Download-Schritt ist nicht einfach "Datei holen" — er vergleicht den Änderungszeitpunkt der Remote-Datei mit dem lokalen Cache:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">if os.path.exists(local_json_path):
+    local_mtime  = os.path.getmtime(local_json_path)
+    if local_mtime >= remote_mtime:
+        log(f"  [CACHE OK]  Reusing {os.path.basename(local_json_path)}")
+        continue
+    else:
+        log(f"  [OUTDATED]  Deleting stale cache")
+        os.remove(local_json_path)
+</code></pre>
+<p>Wenn der lokale Cache aktuell ist, wird der Download vollständig übersprungen. Bei einer großen Datei spart das Minuten pro Lauf. Der Download selbst schreibt zunächst in eine <code>.tmp</code>-Datei und benennt diese erst bei Erfolg in den endgültigen Pfad um — ein fehlgeschlagener oder unterbrochener Download hinterlässt also nie eine beschädigte Cache-Datei, die beim nächsten Lauf still falsche Ergebnisse produzieren würde.</p>
+<p>Die Dekomprimierung verwendet einen 4-MB-Kopierpuffer:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">with gzip.open(gz_path, "rb") as f_in, open(out_path, "wb") as f_out:
+    shutil.copyfileobj(f_in, f_out, length=4 <em> 1024 </em> 1024)
+</code></pre>
+<p>Die <code>.gz</code>-Datei wird unmittelbar nach der Dekomprimierung gelöscht — keine doppelte Speicherung großer Dateien.</p>
+<hr>
+<h2>Schritt 1 — Filterung nach SKU oder GTIN</h2>
+<p>Die Pipeline erkennt automatisch, welcher Bezeichnertyp in der Excel-Spalte steht:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">def _detect_mode(excel_file) -> str:
+    df = pd.read_excel(excel_file, usecols=[0], dtype=str, nrows=20)
+    for val in df.iloc[:, 0].dropna():
+        val = str(val).strip()
+        if val:
+            mode = "sku" if val.upper().startswith("V") else "gtin"
+            return mode
+</code></pre>
+<p>Beginnt der erste Wert mit "V", ist es eine SKU. Andernfalls ist es eine GTIN. Keine Konfiguration nötig — einfach die Excel-Datei einlegen.</p>
+<h3>SKU-Filterung</h3>
+<p>Einfach und schnell. Den ID-Set in den Speicher laden, jede Zeile scannen, Treffer ausgeben:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">ids = set(df.iloc[:, 0].dropna().astype(str).str.strip())
+<p>for raw_line in fin:     item = orjson.loads(raw_line)     if str(item.get("_id", "")).strip() in ids:         buf.append(orjson.dumps(item)) </p></code></pre><p></p>
+<h3>GTIN-Filterung — der interessante Teil</h3>
+<p>GTINs haben ein Problem: führende Nullen. <code>0123456789012</code> und <code>123456789012</code> sind dasselbe Produkt, aber unterschiedliche Zeichenketten. Ein naiver String-Vergleich würde die Hälfte der Treffer verpassen.</p>
+<p>Die Lösung ist die Normalisierung beider Seiten vor dem Vergleich. Und weil das vollständige Parsen jeder JSON-Zeile für eine GTIN-Suche langsam wäre, wird die GTIN mit einer gezielten Byte-Suche extrahiert statt durch vollständiges Parsen:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">_GTIN_KEY = b'"demo-gtin-code","values":[{"value":"'
+<p>def _extract_gtin_bytes(line: bytes) -> bytes | None:     idx = line.find(_GTIN_KEY)     if idx == -1:         return None     start = idx + len(_GTIN_KEY)     end   = line.find(b'"', start)     return line[start:end] if end != -1 else None</p>
+<p>def _norm(v):     return v.lstrip(b"0") if isinstance(v, bytes) else str(v).lstrip("0") </p></code></pre><p></p>
+<p>Der Feldschlüssel hier — <code>demo-gtin-code</code> — ist nur ein Platzhalter; der tatsächliche Schlüssel hängt vollständig davon ab, welches Schema der eigene PIM-Export verwendet. Die Byte-Suche findet das Feld direkt in der rohen Zeile, extrahiert den Wert ohne das gesamte JSON-Objekt zu parsen, normalisiert die führenden Nullen und prüft gegen den normalisierten Set aus Excel. Nur bei einem Treffer wird die Zeile vollständig mit <code>orjson</code> geparst. Dies hält die Kosten des Scannens von Millionen nicht-treffender Zeilen so gering wie möglich.</p>
+<hr>
+<h2>Schritt 2 — Anreicherung in einem einzigen Durchlauf</h2>
+<p>Den rohen Variantendaten fehlen zwei Dinge, die nachgelagerte Systeme benötigen:</p>
+<p>1. <strong>Menschenlesbare Labels</strong> für Attributschlüssel (die Rohdaten haben undurchsichtige Schlüssel wie <code>demo-color-code</code>; die Label-Datei bildet diese auf <code>"Farbe"</code> ab) 2. <strong>Kategoriehierarchie</strong> aus einem flachen Kategoriebaum aufgelöst (die Rohdaten haben eine Blattkategorie-ID; nachgelagerte Systeme brauchen den vollständigen Pfad von der Wurzel)</p>
+<p>Beide Anreicherungen finden in einem Durchlauf über die Daten statt — ein Lesen, ein Schreiben.</p>
+<h3>Label-Lookup</h3>
+<p>Labels werden einmalig zu Beginn in ein einfaches Dict geladen:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">def _load_labels(labels_file: str) -> dict[str, str]:
+    lookup: dict[str, str] = {}
+    for raw in f:
+        obj = orjson.loads(raw)
+        key = obj.get("key")
+        if key:
+            lookup[key] = obj.get("localizedValues", {}).get("de_DE", "")
+    return lookup
+</code></pre>
+<p>Während der Anreicherung bekommt jedes Attribut einer Variante sein deutsches Label injiziert:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">for attr in item.get("attributes", []):
+    k = attr.get("key")
+    attr["label_de"] = label_lookup.get(k, "") if k else ""
+</code></pre>
+<p>Ein fiktives Beispiel, wie ein Variantenattribut vor und nach der Anreicherung aussieht:</p>
+<pre class="hljs"><span class="code-lang">json</span><code class="language-json">// Vor der Anreicherung
+{ "key": "demo-color-code", "values": [{ "value": "Blau" }] }
+<p>// Nach der Anreicherung { "key": "demo-color-code", "values": [{ "value": "Blau" }], "label_de": "Farbe" } </p></code></pre><p></p>
+<h3>Kategoriebaumauflösung — mit Memoisierung</h3>
+<p>Der Kategoriebaum ist der aufwändige Teil. Jede Variante hat eine Blattkategorie-ID. Um den vollständigen Pfad zu kennen — Wurzel → Abteilung → Unterkategorie → Blatt — muss man den Baum aufwärts durch Elternreferenzen durchlaufen. Bei einer großen Datei könnte das bedeuten, dieselbe populäre Kategorie tausende Male zu durchlaufen.</p>
+<p>Die Lösung ist ein memoisierter Resolver, der als Closure aufgebaut wird:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">def _build_chain_fn(lookup: dict[int, dict]):
+    _cache: dict[int, list] = {}
+<p>def _chain(leaf_id: int) -> list:         if leaf_id in _cache:             return _cache[leaf_id]         chain, current, visited = [], leaf_id, set()         while current is not None:             if current in visited:                 break                    # Zyklusschutz             visited.add(current)             cat = lookup.get(current)             if cat is None:                 break             chain.append(cat)             p = cat.get("parentId")             current = int(p) if p is not None else None         chain.reverse()                  # Wurzel zuerst         _cache[leaf_id] = chain         return chain</p>
+<p>return _chain </p></code></pre><p></p>
+<p>Beim ersten Auflösen einer Blattkategorie wird die vollständige Kette berechnet und gecacht. Jeder nachfolgende Aufruf für dieselbe ID — und in der Praxis erscheinen dieselben Kategorien tausende Male — kehrt sofort zurück.</p>
+<p>Ein fiktives Beispiel der in jede Variante injizierten Kategorieinformation:</p>
+<pre class="hljs"><span class="code-lang">json</span><code class="language-json">"categoryInfo": {
+  "rootCategory":     { "id": 1, "name": "Elektronik" },
+  "levelOneCategory": { "id": 42, "name": "Audio" },
+  "levelTwoCategory": { "id": 137, "name": "Kopfhörer" },
+  "leafCategory":     { "id": 982, "name": "Over-Ear-Kopfhörer" },
+  "fullChain": [
+    { "id": 1,   "name": "Elektronik" },
+    { "id": 42,  "name": "Audio" },
+    { "id": 137, "name": "Kopfhörer" },
+    { "id": 982, "name": "Over-Ear-Kopfhörer" }
+  ]
+}
+</code></pre>
+<h3>ThreadPoolExecutor für parallele Anreicherung</h3>
+<p>Die Anreicherung ist CPU-gebunden (JSON-Parse + Transformation) und I/O-gebunden (Lesen einer großen Datei). Ein <code>ThreadPoolExecutor</code> überlappet beides — während eine Charge von Zeilen von Workern verarbeitet wird, lädt der Datei-Leser bereits die nächste Charge:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">_MAX_WORKERS = min(4, os.cpu_count() or 2)
+_CHUNK_SIZE  = 500      # Zeilen pro Worker-Task
+_PREFETCH    = _MAX_WORKERS * 4
+<p>with ThreadPoolExecutor(max_workers=_MAX_WORKERS) as pool:     for _ in range(_PREFETCH):         if not _submit_next():             break</p>
+<p>for fut in as_completed(futures):         del futures[fut]         lines_out, wc = fut.result()         buf.extend(lines_out)         if len(buf) >= _WRITE_BATCH:             fout.write(b"\n".join(buf) + b"\n")             buf.clear()         _submit_next()   # Threads beschäftigt halten während wir die Queue leeren </p></code></pre><p></p>
+<p>Das <code>_PREFETCH</code>-Fenster hält alle Worker-Threads beschäftigt, anstatt auf den Haupt-Thread zu warten, der ihnen eine Charge nach der anderen zuführt.</p>
+<h3>Schreib-Batching</h3>
+<p>Anstatt eine Zeile nach der anderen zu schreiben (was das Dateisystem belastet), werden Zeilen in einem Puffer gesammelt und alle 10.000 Einträge geleert:</p>
+<pre class="hljs"><span class="code-lang">python</span><code class="language-python">_WRITE_BATCH = 10_000
+<p>if len(buf) >= _WRITE_BATCH:     fout.write(b"\n".join(buf) + b"\n")     buf.clear() </p></code></pre><p></p>
+<hr>
+<h2>Schritt 3 — Zippen und Aufräumen</h2>
+<p>Die finale angereicherte Datei wird mit <code>ZIP_DEFLATED</code> Kompressionsstufe 6 gezippt — eine gute Balance zwischen Kompressionsverhältnis und Geschwindigkeit. Zwischendateien (<code>filtered_variants.json</code>, <code>enriched_variants.json</code>) werden nach dem Zippen gelöscht.</p>
+<p>Die Quell-Variantendatei wird nie gelöscht — nur Dateien, die die Pipeline selbst erstellt hat.</p>
+<hr>
+<h2>Die Kommandozeile</h2>
+<p>Die Pipeline wird vollständig über die Kommandozeile gesteuert, ohne Konfigurationsdateien:</p>
+<pre class="hljs"><span class="code-lang">bash</span><code class="language-bash"># Gefilterter Modus — 200 Produkte aus einer Excel-Liste
+python run_pipeline.py \
+  --excel meine_produkte.xlsx \
+  --sftp-host sftp.beispiel.de \
+  --sftp-user katalog-nutzer \
+  --sftp-variants variants_FULL.json.gz \
+  --sftp-labels labels_FULL.json.gz \
+  --sftp-categories categories_FULL.json.gz \
+  --output-dir output/
+<h1>Vollständiger Modus — alles anreichern</h1>
+python run_pipeline.py \
+  --no-filter \
+  --variants variants_FULL.json \
+  --labels labels_FULL.json \
+  --categories categories_FULL.json \
+  --output-dir output/
+</code></pre>
+<p>Steuerungsflags ermöglichen das Überspringen einzelner Schritte während der Entwicklung:</p>
+<pre class="hljs"><span class="code-lang">bash</span><code class="language-bash">--skip-filter        # bestehende filtered_variants.json wiederverwenden
+--skip-enrich        # Anreicherung komplett überspringen
+--skip-labels        # nur Kategorieanreicherung durchführen
+--skip-categories    # nur Label-Anreicherung durchführen
+--max-matches 100    # nach N Treffern früh stoppen (zum Testen)
+</code></pre>
+<hr>
+<h2>Performance-Entscheidungen</h2>
+<p>Alles in der Pipeline ist auf Durchsatz bei großen Dateien optimiert:</p>
+<p><strong>orjson statt stdlib json.</strong> <code>orjson</code> ist beim Parsen und Serialisieren 3–5x schneller. Bei einer Datei mit hunderttausenden von Zeilen ist das ein spürbarer Unterschied in der Wanduhrzeit. Es gibt nativ <code>bytes</code> zurück, was auch den Encode/Decode-Overhead beim Schreiben von Text vermeidet.</p>
+<p><strong>256 MB Lesepuffer.</strong> Die Variantendatei wird mit <code>buffering=256<em>1024</em>1024</code> gelesen. Das reduziert die Anzahl der System-Calls, die das Betriebssystem durchführen muss, und hält den Durchsatz sowohl auf Festplatten als auch auf netzwerkgestütztem Speicher hoch.</p>
+<p><strong>Byte-Level-GTIN-Extraktion.</strong> Für den GTIN-Filter wird der Feldwert aus den rohen Bytes extrahiert, ohne das JSON zu parsen. Da die meisten Zeilen nicht übereinstimmen werden, vermeidet das die Kosten eines vollständigen <code>orjson.loads()</code> für jede nicht-treffende Zeile.</p>
+<p><strong>Memoisierte Kategorienketten.</strong> Ohne den Cache würde ein Katalog, bei dem 80% der Produkte zu 20% der Kategorien gehören, dieselben Ketten hunderttausende Male durchlaufen. Mit dem Cache wird jede eindeutige Kette genau einmal durchlaufen.</p>
+<hr>
+<h2>Was ich heute anders machen würde</h2>
+<p>Die Pipeline funktioniert gut als lokales Werkzeug. Für einen Produktionsdienst würde ich einige Dinge ändern:</p>
+<p><strong>Der GTIN-Schlüssel ist hart kodiert</strong> (<code>demo-gtin-code</code> in diesem Artikel — was auch immer das reale Äquivalent in Ihrem eigenen PIM-Export ist). In einem allgemeineren Werkzeug sollte er ein konfigurierbarer Parameter sein oder aus den Daten ermittelt werden, statt als Konstante im Code vergraben zu sein.</p>
+<p><strong>Kein Retry bei Anreicherungsfehlern.</strong> Wenn eine Zeile während der Anreicherung nicht geparst werden kann, wird sie still übersprungen. Eine Dead-Letter-Queue oder zumindest eine Anzahl übersprungener Zeilen im Log würde Datenqualitätsprobleme sichtbar machen.</p>
+<p><strong>Die ThreadPoolExecutor-Begrenzung auf 4 Worker</strong> ist konservativ. Auf einem Rechner mit vielen Kernen und einer SSD würde das Erhöhen auf 8 oder 16 Worker und die Vergrößerung von <code>_CHUNK_SIZE</code> den Durchsatz wahrscheinlich weiter verbessern. Die aktuellen Werte wurden für eine Standard-Büro-Workstation gewählt.</p>
+<p><strong>Keine Unit-Tests.</strong> Die Filter- und Anreicherungslogik ist in reinen Funktionen gut eingekapselt — es wäre einfach, parametrisierte Tests sowohl für den SKU- als auch den GTIN-Pfad und für den Kategorienketten-Resolver zu schreiben. Das hätte von Anfang an getan werden sollen.</p>
+<hr>
+<h2>Lessons Learned</h2>
+<p>Die wichtigste Erkenntnis aus diesem Projekt klingt offensichtlich, ist aber unter Zeitdruck leicht zu vergessen: <strong>Messen vor dem Optimieren, und die richtige Datenstruktur für das Zugriffsmuster wählen.</strong></p>
+<p>Die erste Version des GTIN-Filters parste jede JSON-Zeile vollständig, bevor er die GTIN prüfte. Das war korrekt, aber langsam. Der Wechsel zur Byte-Level-Teilstring-Suche änderte das Performance-Profil grundlegend — die meisten Zeilen müssen überhaupt nicht geparst werden. Der memoisierte Kategorienketten-Resolver hatte denselben Effekt auf den Anreicherungsschritt: Die erste Version durchlief jede Kette für jede Variante neu, was korrekt, aber unnötig aufwändig war.</p>
+<p>Beide Verbesserungen entstanden aus derselben Frage: Was muss der Algorithmus pro Zeile tatsächlich tun, und was kann er vermeiden?</p>
+<p>Diese Frage lohnt es sich, zu Beginn jeder Datenpipeline zu stellen — nicht erst nach dem ersten Profiling-Lauf.</p></div></main></div></main> <footer class="blog-footer bg-primary text-white p-3 text-center">
+  © 2026 Jalal El Saddi
+</footer></div></div></div><script defer src="/_nuxt/static/1781870739/de/projects/catalogforge-pim-pipeline/state.js"></script><script src="/_nuxt/b208afb.js" defer></script><script src="/_nuxt/a343a33.js" defer></script><script src="/_nuxt/af14cf4.js" defer></script><script src="/_nuxt/e8e1faa.js" defer></script><script src="/_nuxt/07e1634.js" defer></script>
+  </body>
+</html>
