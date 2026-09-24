@@ -1,157 +1,317 @@
 <!doctype html>
 <html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
   <head>
-    <meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="og:site_name" property="og:site_name" content="Jalal El Saddi"><meta data-n-head="ssr" name="author" content="Jalal El Saddi"><meta data-n-head="ssr" name="robots" content="index, follow"><meta data-n-head="ssr" data-hid="description" name="description" content="Overview of technical articles and projects by Jalal El Saddi — hands-on insights into Docker, Quarkus, CQRS, mTLS, microservices, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="og:type" property="og:type" content="website"><meta data-n-head="ssr" data-hid="og:url" property="og:url" content="https://jalalsaddi.de/blog/"><meta data-n-head="ssr" data-hid="og:title" property="og:title" content="Projects & Articles — Jalal El Saddi"><meta data-n-head="ssr" data-hid="og:description" property="og:description" content="Overview of technical articles and projects by Jalal El Saddi — hands-on insights into Docker, Quarkus, CQRS, mTLS, microservices, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://jalalsaddi.de/profile.png"><meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary_large_image"><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="Projects & Articles — Jalal El Saddi"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="Overview of technical articles and projects by Jalal El Saddi — hands-on insights into Docker, Quarkus, CQRS, mTLS, microservices, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="twitter:image" name="twitter:image" content="https://jalalsaddi.de/profile.png"><title>Projects & Articles — Jalal El Saddi</title><base href="/"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="favicon.ico"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:100,200,300,400,500,600,700,800,900"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"><link data-n-head="ssr" data-hid="canonical" rel="canonical" href="https://jalalsaddi.de/blog/"><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/solid.min.js"></script><script data-n-head="ssr" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script><script data-n-head="ssr" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script><link rel="preload" href="/_nuxt/fab3561.js" as="script"><link rel="preload" href="/_nuxt/bb85fac.js" as="script"><link rel="preload" href="/_nuxt/4922e91.js" as="script"><link rel="preload" href="/_nuxt/9fda6f1.js" as="script"><link rel="preload" href="/_nuxt/e9059bf.js" as="script"><style data-vue-ssr-id="629c04aa:0 ff988300:0 306ea3c9:0 43c9d6d5:0 43c9d6d5:1 2bef1f10:0 2ce74da5:0">body{font-family:"Open Sans",serif;margin:0;padding:0}body,h1,h2,h3,h4,h5,h6{color:#343a40;color:var(--color-text-primary)}h1,h2,h3,h4,h5,h6{font-family:"Saira Extra Condensed",serif;font-weight:700;text-transform:uppercase}h1{font-size:6rem;line-height:5.5rem}h2{font-size:3.5rem}.subheading{font-family:"Saira Extra Condensed",serif;font-size:1.35rem;font-weight:500;text-transform:uppercase}.list-social-icons a{color:#7b5fc0;color:var(--color-primary)}.list-social-icons a:hover{color:#5e3d85;color:var(--color-primary-hover)}.list-social-icons a .fa-lg{font-size:1.75rem}.list-icons{font-size:3rem}.list-icons .list-inline-item i:hover{color:#5e3d85;color:var(--color-primary-hover)}#sideNav .navbar-nav .nav-item .nav-link{font-weight:600;text-transform:uppercase}@media (min-width:992px){#sideNav{display:flex;flex-direction:column;height:100vh;left:0;position:fixed;text-align:center;top:0;width:17rem}#sideNav .navbar-brand{display:flex;margin:auto auto 0;padding:.5rem}#sideNav .navbar-brand .img-profile{border:.5rem solid hsla(0,0%,100%,.2);max-height:10rem;max-width:10rem}#sideNav .navbar-collapse{align-items:flex-start;display:flex;flex-grow:0;margin-bottom:auto;width:100%}#sideNav .navbar-collapse .navbar-nav{flex-direction:column;width:100%}#sideNav .navbar-collapse .navbar-nav .nav-item,#sideNav .navbar-collapse .navbar-nav .nav-item .nav-link{display:block}}section.resume-section{border-bottom:1px solid #868e96;border-bottom:1px solid var(--color);padding-bottom:5rem!important;padding-top:5rem!important}section.resume-section .resume-item .resume-date{min-width:none}@media (min-width:768px){section.resume-section{min-height:100vh}section.resume-section .resume-item .resume-date{min-width:18rem}}@media (min-width:992px){section.resume-section{padding-bottom:3rem!important;padding-top:3rem!important}}.bg-primary{background-color:#7b5fc0!important;background-color:var(--color-primary)!important}.text-primary{color:#6a4ca0!important;color:var(--color-secondary)!important}a{color:#6a4ca0;color:var(--color-secondary)}a:active,a:focus,a:hover{color:#5e3d85;color:var(--color-primary-hover)}.vue-typer .custom.char{color:#343a40;color:var(--color-text-primary)}.card-body,.card-title{color:#868e96}:root{--color:#868e96;--color-primary:#7b5fc0;--color-secondary:#6a4ca0;--color-primary-hover:#5e3d85;--color-text-primary:#343a40;--color-text-secondary:#e2e2e2;--color-text-third:#343a40;--bg:#f3f5f4;--bg-secondary:#fff;--border-color:#ddd}.dark-mode{--color:#ebf4f1;--color-primary:#9d7de0;--color-secondary:#b89ee8;--color-primary-hover:#7b5fc0;--color-text-primary:#fff;--color-text-secondary:#e2e2e2;--bg:#081927;--bg-secondary:#071521;--border-color:#0d2538}body{background-color:#f3f5f4;background-color:var(--bg);color:#868e96;color:var(--color);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Open Sans","Helvetica Neue",sans-seriff;transition:background-color .3s}a{color:#7b5fc0;color:var(--color-primary)}.nuxt-progress{background-color:#3b8070;height:2px;left:0;opacity:1;position:fixed;right:0;top:0;transition:width .1s,opacity .4s;width:0;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.blog-layout{display:flex;flex-direction:column;min-height:100vh}.main-content{display:flex;flex:1;flex-direction:column}.content{flex:1}.blog-header[data-v-7741caf7]{background:inherit;position:sticky;text-align:center;top:0;z-index:1000}.blog-header-title[data-v-7741caf7]{color:#fff;font-family:Pacifico,cursive,"Saira Extra Condensed",serif;font-size:2rem;font-weight:700;letter-spacing:1px;margin:0;text-shadow:0 2px 8px rgba(0,0,0,.12)}.back-resume-btn[data-v-7741caf7]{background:hsla(0,0%,100%,.1);border-radius:.25rem;color:#fff;font-size:.85rem;font-weight:600;padding:.3rem .75rem;position:absolute;right:1.5rem;-webkit-text-decoration:none;text-decoration:none;top:50%;transform:translateY(-50%);transition:background .2s}.back-resume-btn[data-v-7741caf7]:hover{background:hsla(0,0%,100%,.25)}@media (max-width:767px){.blog-header[data-v-7741caf7]{padding:1.2rem 1rem 1rem}.blog-header-title[data-v-7741caf7]{font-size:1.3rem;margin-bottom:.5rem}.back-resume-btn[data-v-7741caf7]{background:hsla(0,0%,100%,.15);display:inline-block;font-size:.9rem;margin-top:.5rem;position:static;transform:none}}.breadcrumb-container[data-v-6d559f88]{margin:.5rem 1rem}.breadcrumb[data-v-6d559f88]{background:0 0;display:flex;flex-wrap:nowrap;list-style:none;margin:0;padding:0;white-space:nowrap}.breadcrumb-item+.breadcrumb-item[data-v-6d559f88]:before{color:#666;content:">";padding:0 .5rem}.breadcrumb-item a[data-v-6d559f88]{color:var(--color-primary);-webkit-text-decoration:none;text-decoration:none}.breadcrumb-item.active[data-v-6d559f88]{color:#999}@media (max-width:767px){.breadcrumb-container[data-v-6d559f88]{font-size:.85rem;padding:.5rem .75rem}.breadcrumb-item+.breadcrumb-item[data-v-6d559f88]:before{padding:0 .25rem}.breadcrumb[data-v-6d559f88]{font-size:.85rem}.breadcrumb-item a[data-v-6d559f88],.breadcrumb-item span[data-v-6d559f88]{display:inline-block;max-width:120px;overflow:hidden;text-overflow:ellipsis;vertical-align:middle;white-space:nowrap}}.blog-flex-layout[data-v-1a4bdbe3]{display:flex;flex-direction:column;min-height:100vh}.blog-content[data-v-1a4bdbe3]{min-height:60vh}.filters[data-v-1a4bdbe3]{display:flex;flex-wrap:wrap;gap:.5rem}.filter-btn[data-v-1a4bdbe3]{background:#fff;border:1px solid var(--color-primary);border-radius:.5rem;color:var(--color-primary);font-weight:600;padding:.4rem .8rem;transition:all .2s ease}.filter-btn[data-v-1a4bdbe3]:hover{transform:scale(1.05)}.filter-btn.active[data-v-1a4bdbe3],.filter-btn[data-v-1a4bdbe3]:hover{background:var(--color-primary);color:#fff}.custom-dropdown[data-v-1a4bdbe3]{background:#fff;border:1px solid rgba(0,0,0,.1);border-radius:.5rem;box-shadow:0 4px 12px rgba(0,0,0,.15);max-height:250px;min-width:220px;overflow-y:auto;padding:1.5rem;z-index:1050}.custom-dropdown[data-v-1a4bdbe3]::-webkit-scrollbar{width:6px}.custom-dropdown[data-v-1a4bdbe3]::-webkit-scrollbar-thumb{background-color:rgba(123,95,192,.4);border-radius:3px}.checkbox-item[data-v-1a4bdbe3]{align-items:center;border-radius:.35rem;cursor:pointer;display:flex;gap:.5rem;padding:.35rem .5rem;position:relative;transition:background .2s}.checkbox-item[data-v-1a4bdbe3]:hover{background:rgba(123,95,192,.08)}.checkbox-item input[type=checkbox][data-v-1a4bdbe3]{-moz-appearance:none;appearance:none;-webkit-appearance:none;border:2px solid var(--color-primary);border-radius:4px;cursor:pointer;height:18px;outline:0;position:relative;transition:background .2s,border-color .2s;width:18px}.checkbox-item input[type=checkbox][data-v-1a4bdbe3]:after{border:solid #fff;border-width:0 2px 2px 0;content:"";height:8px;left:6px;opacity:0;position:absolute;top:2px;transform:rotate(45deg);transition:opacity .2s;width:4px}.checkbox-item input[type=checkbox][data-v-1a4bdbe3]:checked{background:var(--color-primary);border-color:var(--color-primary)}.checkbox-item input[type=checkbox][data-v-1a4bdbe3]:checked:after{opacity:1}.checkbox-item label[data-v-1a4bdbe3]{cursor:pointer;flex-grow:1;-webkit-user-select:none;-moz-user-select:none;user-select:none}.dropdown-toggle svg[data-v-1a4bdbe3]{transition:transform .25s ease}.rotate-180[data-v-1a4bdbe3]{transform:rotate(180deg);transition:transform .3s ease}.tag-count[data-v-1a4bdbe3]{color:var(--color-primary);font-size:.85rem;margin-left:4px}.blog-grid>div[data-v-1a4bdbe3]{margin-bottom:2rem}.blog-card[data-v-1a4bdbe3]{border:none;border-radius:.75rem;box-shadow:0 2px 8px rgba(0,0,0,.08);overflow:hidden;position:relative;transition:transform .25s ease,box-shadow .25s ease}.blog-card[data-v-1a4bdbe3]:hover{box-shadow:0 4px 16px rgba(0,0,0,.15);transform:translateY(-5px)}.blog-card[data-v-1a4bdbe3]:after{background:rgba(123,95,192,.08);border-radius:.75rem;content:"";height:100%;left:0;opacity:0;pointer-events:none;position:absolute;top:0;transition:opacity .25s ease;width:100%}.blog-card[data-v-1a4bdbe3]:hover:after{opacity:1}.featured-badge[data-v-1a4bdbe3]{background:var(--color-primary);border-radius:4px;color:#fff;font-size:.75rem;font-weight:700;padding:4px 8px;position:absolute;right:12px;top:12px;z-index:2}.card-meta[data-v-1a4bdbe3]{color:#666;font-size:.8rem;margin-bottom:.5rem}.card-tags[data-v-1a4bdbe3]{background:rgba(123,95,192,.15);border-radius:4px;color:var(--color-primary);font-size:.75rem;margin-right:4px;padding:2px 6px}.btn-primary[data-v-1a4bdbe3]{background:var(--color-primary)!important;border:none;border-radius:.5rem;color:#fff!important;font-weight:600;text-transform:uppercase;transition:background .2s,transform .25s ease}.btn-primary[data-v-1a4bdbe3]:hover{background:var(--color-primary-hover)!important;transform:scale(1.05)}.blog-card:hover .card-title[data-v-1a4bdbe3]{color:var(--color-primary);transform:translateY(-3px);transition:transform .25s ease,color .25s ease}.blog-card .card-text[data-v-1a4bdbe3]{transition:opacity .25s ease,transform .25s ease}.blog-card:hover .card-text[data-v-1a4bdbe3]{opacity:.95;transform:translateY(-2px)}.card-img-top[data-v-1a4bdbe3]{transition:transform .3s ease}.blog-card:hover .card-img-top[data-v-1a4bdbe3]{transform:scale(1.05) translateY(-3px)}@media (max-width:767px){.filters[data-v-1a4bdbe3]{justify-content:center}}</style><link rel="preload" href="/_nuxt/static/1789322828/blog/state.js" as="script"><link rel="preload" href="/_nuxt/static/1789322828/blog/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1789322828/manifest.js" as="script">
+    <meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="og:site_name" property="og:site_name" content="Jalal El Saddi"><meta data-n-head="ssr" name="author" content="Jalal El Saddi"><meta data-n-head="ssr" name="robots" content="index, follow"><meta data-n-head="ssr" data-hid="description" name="description" content="Overview of case studies and technical articles by Jalal El Saddi — hands-on insights into Quarkus, CQRS, mTLS, microservices, PIM pipelines, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="og:type" property="og:type" content="website"><meta data-n-head="ssr" data-hid="og:url" property="og:url" content="https://jalalsaddi.de/blog/"><meta data-n-head="ssr" data-hid="og:title" property="og:title" content="Case Studies & Technical Articles — Jalal El Saddi"><meta data-n-head="ssr" data-hid="og:description" property="og:description" content="Overview of case studies and technical articles by Jalal El Saddi — hands-on insights into Quarkus, CQRS, mTLS, microservices, PIM pipelines, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://jalalsaddi.de/blog_banner.jpg"><meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary_large_image"><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="Case Studies & Technical Articles — Jalal El Saddi"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="Overview of case studies and technical articles by Jalal El Saddi — hands-on insights into Quarkus, CQRS, mTLS, microservices, PIM pipelines, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="twitter:image" name="twitter:image" content="https://jalalsaddi.de/blog_banner.jpg"><title>Case Studies & Technical Articles — Jalal El Saddi</title><base href="/"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="favicon.ico"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"><link data-n-head="ssr" data-hid="canonical" rel="canonical" href="https://jalalsaddi.de/blog/"><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/solid.min.js"></script><script data-n-head="ssr" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script><script data-n-head="ssr" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script><link rel="preload" href="/_nuxt/024c560.js" as="script"><link rel="preload" href="/_nuxt/10f4116.js" as="script"><link rel="preload" href="/_nuxt/8b5a108.js" as="script"><link rel="preload" href="/_nuxt/a3a86a1.js" as="script"><link rel="preload" href="/_nuxt/382d9ce.js" as="script"><style data-vue-ssr-id="629c04aa:0 47b96ca8:0 591eb602:0 491c37e4:0 8e6eec00:0 69e01fb5:0 6bcfaadd:0">:root{--paper:#edeff1;--paper-raised:#e3e6e9;--ink:#1a2138;--ink-soft:#454e63;--rule:#c7ccd1;--brass:#a9752f;--brass-subtle:rgba(169,117,47,.12);--brass-hover:#8c5f24;--font-serif:"IBM Plex Serif",Georgia,"Times New Roman",serif;--font-sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;--font-mono:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;--bg:var(--paper);--bg-secondary:var(--paper-raised);--color-primary:var(--brass);--color-primary-hover:var(--brass-hover);--color-secondary:var(--ink-soft);--color-text-primary:var(--ink);--color-text-secondary:var(--ink-soft);--border-color:var(--rule)}.dark-mode{--paper:#1b2024;--paper-raised:#242a30;--ink:#e7e9ec;--ink-soft:#a8afb8;--rule:#3a4048;--brass:#c79552;--brass-subtle:rgba(199,149,82,.15);--brass-hover:#dba865;--bg:var(--paper);--bg-secondary:var(--paper-raised);--color-primary:var(--brass);--color-primary-hover:var(--brass-hover);--color-secondary:var(--ink-soft);--color-text-primary:var(--ink);--color-text-secondary:var(--ink-soft);--border-color:var(--rule)}html{background-color:#edeff1;background-color:var(--paper);color:#1a2138;color:var(--ink);font-size:16px}*,:after,:before,html{box-sizing:border-box}body{background-color:#edeff1;background-color:var(--paper);font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-family:var(--font-sans);line-height:1.65;margin:0;padding:0;transition:background-color .25s ease,color .25s ease;-webkit-font-smoothing:antialiased}body,h1,h2,h3,h4,h5,h6{color:#1a2138;color:var(--ink)}h1,h2,h3,h4,h5,h6{font-family:"IBM Plex Serif",Georgia,"Times New Roman",serif;font-family:var(--font-serif);font-weight:600;line-height:1.25;margin-top:0}h1{font-size:2.35rem}h2{font-size:1.75rem}h3{font-size:1.35rem}h4{font-size:1.15rem}p{margin-bottom:1rem;margin-top:0}a{color:#a9752f;color:var(--brass);-webkit-text-decoration:none;text-decoration:none;transition:color .2s ease,border-color .2s ease}a:focus,a:hover{color:#8c5f24;color:var(--brass-hover);-webkit-text-decoration:underline;text-decoration:underline}.manifest-stamp,code,kbd,pre,samp{font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono)}.manifest-stamp{align-items:center;background-color:rgba(169,117,47,.12);background-color:var(--brass-subtle);border:1.5px solid #a9752f;border:1.5px solid var(--brass);border-radius:2px;box-shadow:1px 2px 0 rgba(0,0,0,.06);color:#a9752f;color:var(--brass);display:inline-flex;font-size:.76rem;font-weight:600;gap:.4rem;letter-spacing:.08em;padding:.3rem .65rem;text-transform:uppercase;transform:rotate(-1deg);-webkit-user-select:none;-moz-user-select:none;user-select:none;width:-moz-fit-content;width:fit-content}.manifest-stamp.case-stamp{border-radius:2px;font-size:.72rem;padding:.2rem .5rem;transform:none}.ledger-container{margin:0 auto;max-width:900px;width:100%}.ledger-row{display:grid;grid-template-columns:140px 1fr;grid-gap:1.5rem;border-bottom:1px solid #c7ccd1;border-bottom:1px solid var(--rule);gap:1.5rem;padding:1.35rem 0;transition:background-color .15s ease}.ledger-row:first-of-type{border-top:1px solid #c7ccd1;border-top:1px solid var(--rule)}.ledger-date{color:#454e63;color:var(--ink-soft);font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono);font-size:.85rem;letter-spacing:.02em;padding-top:.15rem}.ledger-body{display:flex;flex-direction:column;gap:.4rem}.ledger-title{font-family:"IBM Plex Serif",Georgia,"Times New Roman",serif;font-family:var(--font-serif);font-size:1.2rem;font-weight:600;margin:0}.ledger-title,.ledger-title a{color:#1a2138;color:var(--ink)}.ledger-title a{-webkit-text-decoration:none;text-decoration:none}.ledger-title a:hover{color:#a9752f;color:var(--brass);-webkit-text-decoration:underline;text-decoration:underline}.ledger-desc{color:#454e63;color:var(--ink-soft);font-size:.95rem;line-height:1.55;margin:0}.ledger-link{align-items:center;color:#a9752f;color:var(--brass);display:inline-flex;font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-family:var(--font-sans);font-size:.9rem;font-weight:600;gap:.35rem;margin-top:.25rem}.ledger-link:hover{color:#8c5f24;color:var(--brass-hover);-webkit-text-decoration:underline;text-decoration:underline}.tag-pill{background-color:#e3e6e9;background-color:var(--paper-raised);border:1px solid #c7ccd1;border:1px solid var(--rule);border-radius:2px;color:#1a2138;color:var(--ink);display:inline-block;font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono);font-size:.78rem;line-height:1.3;padding:.2rem .55rem}.tag-pill.active{background-color:#a9752f;background-color:var(--brass);border-color:#a9752f;border-color:var(--brass);color:#fff}.kenntnisse-block{background-color:#e3e6e9;background-color:var(--paper-raised);border:1px solid #c7ccd1;border:1px solid var(--rule);border-radius:3px;margin:2rem 0 2.5rem;padding:1.5rem}.kenntnisse-title{color:#a9752f;color:var(--brass);font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono);font-size:.8rem;font-weight:600;letter-spacing:.08em;margin-bottom:.85rem;text-transform:uppercase}.kenntnisse-tags{display:flex;flex-wrap:wrap;gap:.45rem}.manifest-btn{align-items:center;background-color:#a9752f;background-color:var(--brass);border:1px solid #a9752f;border:1px solid var(--brass);border-radius:3px;color:#fff!important;cursor:pointer;display:inline-flex;font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-family:var(--font-sans);font-size:.92rem;font-weight:600;gap:.5rem;justify-content:center;padding:.65rem 1.25rem;-webkit-text-decoration:none!important;text-decoration:none!important;transition:background-color .2s ease,border-color .2s ease,transform .15s ease}.manifest-btn:hover{background-color:#8c5f24;background-color:var(--brass-hover);border-color:#8c5f24;border-color:var(--brass-hover);transform:translateY(-1px)}.manifest-btn-outline{background-color:transparent;border:1px solid #c7ccd1;border:1px solid var(--rule);color:#1a2138!important;color:var(--ink)!important}.manifest-btn-outline:hover{background-color:#e3e6e9;background-color:var(--paper-raised);border-color:#a9752f;border-color:var(--brass);color:#a9752f!important;color:var(--brass)!important}.rule-divider{border:none;border-top:1px solid #c7ccd1;border-top:1px solid var(--rule);margin:2.5rem 0}@media (max-width:768px){.ledger-row{gap:.4rem;grid-template-columns:1fr;padding:1.15rem 0}.ledger-date{font-size:.78rem}h1{font-size:1.95rem}h2{font-size:1.5rem}}.nuxt-progress{background-color:#a9752f;height:2px;left:0;opacity:1;position:fixed;right:0;top:0;transition:width .1s,opacity .4s;width:0;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.blog-container[data-v-83acdd40]{flex:1;margin:0 auto;max-width:960px;padding:1.5rem 1.25rem 3rem;width:100%}.site-header[data-v-27557ac3]{backdrop-filter:blur(8px);background-color:var(--paper);border-bottom:1px solid var(--rule);left:0;position:sticky;top:0;transition:background-color .25s ease,border-color .25s ease;width:100%;z-index:1200}.site-nav-container[data-v-27557ac3]{align-items:center;display:flex;justify-content:space-between;margin:0 auto;max-width:1080px;padding:.85rem 1.5rem}.site-brand[data-v-27557ac3]{font-family:var(--font-serif);font-size:1.25rem;font-weight:700;letter-spacing:-.01em}.brand-link[data-v-27557ac3]{color:var(--ink);-webkit-text-decoration:none!important;text-decoration:none!important}.brand-link[data-v-27557ac3]:hover{color:var(--brass)}.site-nav-links[data-v-27557ac3]{align-items:center;display:flex;gap:2rem}.nav-item-link[data-v-27557ac3]{color:var(--ink-soft);font-family:var(--font-sans);font-size:.95rem;font-weight:500;padding:.35rem 0;position:relative;-webkit-text-decoration:none!important;text-decoration:none!important;transition:color .2s ease}.nav-item-link[data-v-27557ac3]:hover{color:var(--ink)}.nav-item-link.active[data-v-27557ac3]{border-bottom:2px solid var(--brass);color:var(--ink);font-weight:600}.site-controls[data-v-27557ac3]{align-items:center;display:flex;gap:1.25rem}.lang-switcher[data-v-27557ac3]{align-items:center;display:inline-flex;font-family:var(--font-mono);font-size:.82rem;gap:.25rem;letter-spacing:.05em}.lang-btn[data-v-27557ac3]{color:var(--ink-soft);font-weight:500;padding:.2rem .3rem;-webkit-text-decoration:none!important;text-decoration:none!important;transition:color .15s ease}.lang-btn[data-v-27557ac3]:hover{color:var(--ink)}.lang-btn.active[data-v-27557ac3]{border-bottom:1.5px solid var(--brass);color:var(--brass);font-weight:700}.lang-divider[data-v-27557ac3]{color:var(--rule)}.theme-toggle-btn[data-v-27557ac3]{align-items:center;background:0 0;border:1px solid var(--rule);border-radius:4px;color:var(--ink-soft);cursor:pointer;display:inline-flex;justify-content:center;padding:.4rem .55rem;transition:all .2s ease}.theme-toggle-btn[data-v-27557ac3]:hover{background-color:var(--paper-raised);border-color:var(--brass);color:var(--ink)}.theme-icon[data-v-27557ac3]{display:block}.theme-label[data-v-27557ac3]{font-family:var(--font-mono);font-size:.8rem;margin-right:.4rem}.hamburger-btn[data-v-27557ac3]{background:0 0;border:1px solid var(--rule);border-radius:4px;cursor:pointer;display:flex;flex-direction:column;height:38px;justify-content:space-around;padding:.5rem .6rem;width:38px}.hamburger-bar[data-v-27557ac3]{background-color:var(--ink);display:block;height:2px;transition:all .25s ease;width:100%}.mobile-drawer[data-v-27557ac3]{background-color:var(--paper);border-bottom:1px solid var(--rule);padding:1.25rem 1.5rem}.mobile-nav-links[data-v-27557ac3]{display:flex;flex-direction:column;gap:1rem;margin-bottom:1.25rem}.mobile-nav-item[data-v-27557ac3]{border-bottom:1px solid var(--rule);color:var(--ink-soft);font-family:var(--font-sans);font-size:1.05rem;font-weight:500;padding:.4rem 0;-webkit-text-decoration:none!important;text-decoration:none!important}.mobile-nav-item.active[data-v-27557ac3]{color:var(--brass);font-weight:600}.mobile-drawer-controls[data-v-27557ac3]{align-items:center;display:flex;justify-content:space-between;padding-top:.5rem}.slide-menu-enter-active[data-v-27557ac3],.slide-menu-leave-active[data-v-27557ac3]{transition:all .2s ease-out}.slide-menu-enter[data-v-27557ac3],.slide-menu-leave-to[data-v-27557ac3]{opacity:0;transform:translateY(-8px)}.breadcrumb-container[data-v-7bb4f422]{font-family:var(--font-mono);font-size:.8rem;margin:.5rem 0 1.5rem}.breadcrumb-list[data-v-7bb4f422]{align-items:center;display:flex;flex-wrap:wrap;gap:.25rem;list-style:none;margin:0;padding:0}.breadcrumb-item[data-v-7bb4f422]{align-items:center;display:inline-flex;gap:.4rem}.breadcrumb-link[data-v-7bb4f422]{color:var(--ink-soft);-webkit-text-decoration:none;text-decoration:none;transition:color .15s ease}.breadcrumb-link[data-v-7bb4f422]:hover{color:var(--brass);-webkit-text-decoration:underline;text-decoration:underline}.breadcrumb-current[data-v-7bb4f422]{color:var(--ink);font-weight:600;max-width:320px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.breadcrumb-separator[data-v-7bb4f422]{color:var(--rule);padding:0 .1rem}@media (max-width:768px){.breadcrumb-current[data-v-7bb4f422]{max-width:160px}}.blog-index-page[data-v-8417092a]{width:100%}.blog-header-section[data-v-8417092a]{margin-bottom:2rem}.stamp-dot[data-v-8417092a]{color:#10b981;font-size:.7rem}.blog-main-title[data-v-8417092a]{color:var(--ink);font-family:var(--font-serif);font-size:2.35rem;font-weight:700;letter-spacing:-.01em;margin-bottom:.5rem}.blog-main-subtitle[data-v-8417092a]{color:var(--ink-soft);font-size:1.05rem;line-height:1.6;margin:0;max-width:720px}.blog-filters-section[data-v-8417092a]{display:flex;flex-direction:column;gap:1.25rem;margin:1.5rem 0}.category-chips[data-v-8417092a]{display:flex;flex-wrap:wrap;gap:.5rem}.category-btn[data-v-8417092a]{background-color:var(--paper-raised);border:1px solid var(--rule);border-radius:2px;color:var(--ink-soft);cursor:pointer;font-family:var(--font-sans);font-size:.88rem;font-weight:600;padding:.4rem .9rem;transition:all .15s ease}.category-btn[data-v-8417092a]:hover{border-color:var(--brass);color:var(--ink)}.category-btn.active[data-v-8417092a]{background-color:var(--brass);border-color:var(--brass);color:#fff}.tag-filters[data-v-8417092a]{align-items:center;display:flex;flex-wrap:wrap;gap:.45rem}.filter-label[data-v-8417092a]{font-size:.78rem;font-weight:600;letter-spacing:.05em;margin-right:.25rem;text-transform:uppercase}.filter-label[data-v-8417092a],.tag-filter-pill[data-v-8417092a]{color:var(--ink-soft);font-family:var(--font-mono)}.tag-filter-pill[data-v-8417092a]{background-color:transparent;border:1px solid var(--rule);border-radius:2px;cursor:pointer;font-size:.76rem;padding:.2rem .55rem;transition:all .15s ease}.tag-filter-pill[data-v-8417092a]:hover{border-color:var(--ink-soft);color:var(--ink)}.tag-filter-pill.active[data-v-8417092a]{background-color:var(--brass-subtle);border-color:var(--brass);color:var(--brass);font-weight:600}.clear-tags-btn[data-v-8417092a]{background:0 0;border:none;color:var(--brass);cursor:pointer;font-family:var(--font-mono);font-size:.74rem;padding:0 .4rem;-webkit-text-decoration:underline;text-decoration:underline}.post-date-mono[data-v-8417092a]{color:var(--ink-soft);font-size:.78rem;margin-top:.4rem}.ledger-meta-row[data-v-8417092a]{align-items:center;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:space-between;margin-top:.6rem}.ledger-tags[data-v-8417092a]{display:flex;flex-wrap:wrap;gap:.35rem}.no-results[data-v-8417092a]{color:var(--ink-soft);padding:3rem 1rem;text-align:center}@media (max-width:768px){.blog-main-title[data-v-8417092a]{font-size:1.95rem}.ledger-meta-row[data-v-8417092a]{align-items:flex-start;flex-direction:column}}.manifest-footer[data-v-2d680a6e]{background-color:var(--paper);border-top:1px solid var(--rule);margin-top:auto;padding:1.5rem 1.25rem;width:100%}.footer-container[data-v-2d680a6e]{align-items:center;color:var(--ink-soft);display:flex;flex-wrap:wrap;font-family:var(--font-mono);font-size:.8rem;gap:.75rem;justify-content:space-between;margin:0 auto;max-width:900px}@media (max-width:768px){.footer-container[data-v-2d680a6e]{flex-direction:column;justify-content:center;text-align:center}}</style><link rel="preload" href="/_nuxt/static/1790269647/blog/state.js" as="script"><link rel="preload" href="/_nuxt/static/1790269647/blog/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1790269647/manifest.js" as="script">
   </head>
   <body>
-    <script data-n-head="ssr" data-hid="nuxt-color-mode-script" data-pbody="true">!function(){"use strict";var e=window,t=document,s=t.documentElement,r=["dark","light"],n=function(){for(var e="nuxt-color-mode=",s=t.cookie.split(";"),r=0;r<s.length;r++){for(var n=s[r];" "===n.charAt(0);)n=n.substring(1,n.length);if(0===n.indexOf(e))return n.substring(16,n.length)}return null}()||"system",a="system"===n?i():n;function c(e){var t=e+"-mode";s.classList?s.classList.add(t):s.className+=" "+t}function o(t){return e.matchMedia("(prefers-color-scheme"+t+")")}function i(){if(e.matchMedia&&"not all"!==o("").media)for(var t of r)if(o(":"+t).matches)return t;return"light"}c(a),e.__NUXT_COLOR_MODE__={preference:n,value:a,getColorScheme:i,addClass:c,removeClass:function(e){var t=e+"-mode";s.classList?s.classList.remove(t):s.className=s.className.replace(new RegExp(t,"g"),"")}}}()</script><div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div class="blog-layout"><header class="blog-header bg-primary text-white" data-v-7741caf7><h1 class="blog-header-title" data-v-7741caf7>Blog & Projects</h1> <a href="/" class="back-resume-btn nuxt-link-active" data-v-7741caf7>
-    Home
-  </a></header> <nav aria-label="breadcrumb" class="breadcrumb-container" data-v-6d559f88><ol class="breadcrumb" data-v-6d559f88><li class="breadcrumb-item" data-v-6d559f88><a href="/" class="nuxt-link-active" data-v-6d559f88>
+    <script data-n-head="ssr" data-hid="nuxt-color-mode-script" data-pbody="true">!function(){"use strict";var e=window,t=document,s=t.documentElement,r=["dark","light"],n=function(){for(var e="nuxt-color-mode=",s=t.cookie.split(";"),r=0;r<s.length;r++){for(var n=s[r];" "===n.charAt(0);)n=n.substring(1,n.length);if(0===n.indexOf(e))return n.substring(16,n.length)}return null}()||"system",a="system"===n?i():n;function c(e){var t=e+"-mode";s.classList?s.classList.add(t):s.className+=" "+t}function o(t){return e.matchMedia("(prefers-color-scheme"+t+")")}function i(){if(e.matchMedia&&"not all"!==o("").media)for(var t of r)if(o(":"+t).matches)return t;return"light"}c(a),e.__NUXT_COLOR_MODE__={preference:n,value:a,getColorScheme:i,addClass:c,removeClass:function(e){var t=e+"-mode";s.classList?s.classList.remove(t):s.className=s.className.replace(new RegExp(t,"g"),"")}}}()</script><div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div class="site-layout" data-v-83acdd40><header class="site-header" data-v-27557ac3 data-v-83acdd40><div class="site-nav-container" data-v-27557ac3><div class="site-brand" data-v-27557ac3><a href="/" class="brand-link nuxt-link-active" data-v-27557ac3>
+        Jalal El Saddi
+      </a></div> <nav aria-label="Main Navigation" class="site-nav-links d-none d-md-flex" data-v-27557ac3><a href="/" class="nav-item-link" data-v-27557ac3>
         Home
-      </a></li><li class="breadcrumb-item active" data-v-6d559f88><span data-v-6d559f88>Blog</span></li></ol></nav> <main class="main-content"><div class="container content"><div class="blog-page blog-flex-layout" data-v-1a4bdbe3><main class="blog-content container flex-grow-1" style="padding-top:8rem" data-v-1a4bdbe3><div class="filters mb-4 d-flex flex-wrap align-items-center gap-2" data-v-1a4bdbe3><button type="button" class="btn filter-btn active" data-v-1a4bdbe3>
-       All
-     </button><button type="button" class="btn filter-btn" data-v-1a4bdbe3>
-       Articles
-     </button><button type="button" class="btn filter-btn" data-v-1a4bdbe3>
-       Projects
-     </button> <div class="dropdown position-relative" data-v-1a4bdbe3><button type="button" class="btn filter-btn dropdown-toggle d-flex align-items-center" data-v-1a4bdbe3>
-           Tags
-           <!----> <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16" class="bi bi-chevron-down ms-1 transition-transform" data-v-1a4bdbe3><path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" data-v-1a4bdbe3></path></svg></button> <!----></div></div> <div class="row blog-grid gy-7" data-v-1a4bdbe3><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm featured" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/dockerContainers.jpeg" alt="Docker Containers — Simplifying Development and Deployment" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <span class="featured-badge" data-v-1a4bdbe3>Featured</span></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2025-10-14</span> <span class="card-tags" data-v-1a4bdbe3>
-                 Docker
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 DevOps
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Microservices
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>Docker Containers — Simplifying Development and Deployment</h5> <p class="card-text" data-v-1a4bdbe3>After many years in software development, I've learned: The most interesting projects aren't the perfect ones, but those where you have to deal with reality. Docker shows its true strength not in ideal microservices worlds, but in connecting legacy systems with modern architectures – just like Amazon did.</p> <a href="/projects/docker-in-practice" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/voting.jpeg" alt="Chocolate for Peace — A Full-Stack Voting Platform for Charity" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <!----></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2025-08-30</span> <span class="card-tags" data-v-1a4bdbe3>
-                 Vue.js
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Spring Boot
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Full-Stack
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 JWT
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 PostgreSQL
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Pinia
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Tailwind CSS
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>Chocolate for Peace — A Full-Stack Voting Platform for Charity</h5> <p class="card-text" data-v-1a4bdbe3>A chocolate brand that lets its customers decide where the donations go. I built the full platform: Spring Boot 3 backend with JWT auth and role-based access, Vue.js 3 frontend with Pinia, a separate admin panel, and a monthly vote-integrity system that makes the results trustworthy — not just technically, but in the eyes of the community.</p> <a href="/projects/voting-system" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/artikelMeister.jpeg" alt="Artikel Meister — A Flutter App for Mastering German Articles" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <!----></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2025-07-15</span> <span class="card-tags" data-v-1a4bdbe3>
-                 Flutter
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Dart
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 SQLite
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 CEFR
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 German Learning
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Mobile
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>Artikel Meister — A Flutter App for Mastering German Articles</h5> <p class="card-text" data-v-1a4bdbe3>Der, die, das — the three words that defeat most German learners. I built a Flutter app to fix that: CEFR-levelled quiz sessions (A1–B1), full noun declension tables with all four cases, multilingual hints in English, French and Arabic, and a 70%-pass unlock system that keeps learners moving forward without overwhelming them.</p> <a href="/projects/german-nouns" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/germanWordsApp.jpeg" alt="German Word App — Nouns, Verbs & Adjectives from A1 to C2" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <!----></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2025-09-01</span> <span class="card-tags" data-v-1a4bdbe3>
-                 Flutter
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Dart
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 SQLite
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 CEFR
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 German Learning
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Mobile
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 sqflite_sqlcipher
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>German Word App — Nouns, Verbs & Adjectives from A1 to C2</h5> <p class="card-text" data-v-1a4bdbe3>6,322 German words. Three word types. Six CEFR levels. This Flutter app covers nouns, verbs, and adjectives from absolute beginner to near-native — with verb conjugation exercises across Präsens, Perfekt and Präteritum, adjective comparative and superlative drills, an encrypted SQLite database, and a favourites system that lets learners build their own personal word list.</p> <a href="/projects/german-words-app" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/ecommerceGuide.jpeg" alt="What Is E-Commerce? A Beginner's Guide" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <!----></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2025-06-20</span> <span class="card-tags" data-v-1a4bdbe3>
-                 E-Commerce
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Beginner
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Guide
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>What Is E-Commerce? A Beginner's Guide</h5> <p class="card-text" data-v-1a4bdbe3>An introductory guide to e-commerce models, technical foundations, and platform choices, including B2B, B2C, and enterprise solutions.</p> <a href="/projects/my-journey-into-ecommerce" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/azureFunctionsEcommerce.jpeg" alt="Azure Functions in Practice: Automated Image Processing in E-Commerce" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <!----></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2025-10-16</span> <span class="card-tags" data-v-1a4bdbe3>
-                 Azure Functions
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Serverless
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 E-Commerce
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Image Processing
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>Azure Functions in Practice: Automated Image Processing in E-Commerce</h5> <p class="card-text" data-v-1a4bdbe3>A detailed case study on using Azure Functions for automatic image resizing in an e-commerce platform, covering architecture, implementation, and lessons learned about serverless computing.</p> <a href="/projects/azure-functions-in-practice" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm featured" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/hexagonalArchitecture.jpeg" alt="Hexagonal Architecture in Practice: Why Less Changes Than You Think" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <span class="featured-badge" data-v-1a4bdbe3>Featured</span></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2025-10-22</span> <span class="card-tags" data-v-1a4bdbe3>
-                 Software Development
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Architecture
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Hexagonal Architecture
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Clean Architecture
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>Hexagonal Architecture in Practice: Why Less Changes Than You Think</h5> <p class="card-text" data-v-1a4bdbe3>After 15 years of software development, a surprising realization: modern architecture concepts like Hexagonal Architecture, Clean Architecture, or Ports & Adapters are not a revolution—they merely rename time-tested principles.</p> <a href="/projects/hexagonal-architecture-in-practice" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm featured" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/catalogForge.jpeg" alt="CatalogForge — Building a PIM Data Pipeline That Actually Handles Scale" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <span class="featured-badge" data-v-1a4bdbe3>Featured</span></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2026-01-15</span> <span class="card-tags" data-v-1a4bdbe3>
-                 Python
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 PIM
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Data Pipeline
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 orjson
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 SFTP
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 E-Commerce
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>CatalogForge — Building a PIM Data Pipeline That Actually Handles Scale</h5> <p class="card-text" data-v-1a4bdbe3>A PIM export is a multi-gigabyte NDJSON file. The team needs 200 enriched products from an Excel list, in minutes, reliably. Here is how I built the pipeline: SFTP with smart caching, byte-level GTIN filtering with leading-zero normalisation, memoised category tree resolution, and threaded enrichment in a single pass with orjson.</p> <a href="/projects/catalogforge-pim-pipeline" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm featured" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/mtlsWarStory.jpeg" alt="The mTLS War Story: A Trust Store, Two Secret Managers, and a Password That Isn't Supposed to Exist" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <span class="featured-badge" data-v-1a4bdbe3>Featured</span></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2026-09-12</span> <span class="card-tags" data-v-1a4bdbe3>
-                 mTLS
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Kubernetes
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Security
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Azure Key Vault
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Java
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>The mTLS War Story: A Trust Store, Two Secret Managers, and a Password That Isn't Supposed to Exist</h5> <p class="card-text" data-v-1a4bdbe3>A payment provider required mutual TLS. What looked like 'just add a certificate' turned into a trust-store gotcha that could break every other HTTPS call in the JVM, two competing secret-sync mechanisms quietly coexisting in the same cluster, and a keystore password Azure Key Vault throws away by design.</p> <a href="/projects/mtls-war-story" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm featured" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/bestOfferView.jpeg" alt="Keeping a Best-Offer View Fresh Under Crawler Load: CQRS, Read Replicas, and the Blue-Green Swap" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <span class="featured-badge" data-v-1a4bdbe3>Featured</span></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2026-06-22</span> <span class="card-tags" data-v-1a4bdbe3>
-                 Architecture
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 CQRS
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Materialized Views
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 PostgreSQL
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Quarkus
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Performance
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>Keeping a Best-Offer View Fresh Under Crawler Load: CQRS, Read Replicas, and the Blue-Green Swap</h5> <p class="card-text" data-v-1a4bdbe3>How separating writes from reads, and swapping tables instead of updating in place, kept price and stock data fresh on a heavily-crawled product catalog.</p> <a href="/projects/best-offer-view-under-crawler-load" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div><div class="col-12 col-md-6 col-lg-4 mb-5" data-v-1a4bdbe3><div class="card h-100 blog-card shadow-sm featured" data-v-1a4bdbe3><div class="card-img-wrapper position-relative" data-v-1a4bdbe3><img src="/stranglerFig.jpeg" alt="The Strangler Fig Pattern in Practice: Retiring a Legacy Pricing Engine Without a Big-Bang Rewrite" class="card-img-top" style="object-fit:cover;height:200px;background:#eee" data-v-1a4bdbe3> <span class="featured-badge" data-v-1a4bdbe3>Featured</span></div> <div class="card-body d-flex flex-column" data-v-1a4bdbe3><div class="card-meta mb-2" data-v-1a4bdbe3><span class="card-date" data-v-1a4bdbe3>2026-06-22</span> <span class="card-tags" data-v-1a4bdbe3>
-                 Architecture
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Microservices
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Java
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Quarkus
-               </span><span class="card-tags" data-v-1a4bdbe3>
-                 Legacy Migration
-               </span></div> <h5 class="card-title" data-v-1a4bdbe3>The Strangler Fig Pattern in Practice: Retiring a Legacy Pricing Engine Without a Big-Bang Rewrite</h5> <p class="card-text" data-v-1a4bdbe3>How a facade-and-redirect strategy let a 12-year-old pricing monolith get replaced piece by piece, with checkout never going dark.</p> <a href="/projects/strangler-fig-pattern-in-practice" class="btn btn-primary mt-auto" data-v-1a4bdbe3>
-               Read More
-             </a></div></div></div></div></main></div></div></main> <footer class="blog-footer bg-primary text-white p-3 text-center">
-  © 2026 Jalal El Saddi
-</footer></div></div></div><script defer src="/_nuxt/static/1789322828/blog/state.js"></script><script src="/_nuxt/fab3561.js" defer></script><script src="/_nuxt/e9059bf.js" defer></script><script src="/_nuxt/bb85fac.js" defer></script><script src="/_nuxt/4922e91.js" defer></script><script src="/_nuxt/9fda6f1.js" defer></script>
+      </a> <a href="/resume_index" class="nav-item-link" data-v-27557ac3>
+        Résumé
+      </a> <a href="/blog" aria-current="page" class="nav-item-link nuxt-link-exact-active nuxt-link-active active" data-v-27557ac3>
+        Case Studies
+      </a></nav> <div class="site-controls d-none d-md-flex" data-v-27557ac3><div class="lang-switcher" data-v-27557ac3><a href="/de/blog" class="lang-btn" data-v-27557ac3>
+          DE
+        </a> <span class="lang-divider" data-v-27557ac3>/</span> <a href="/blog" aria-current="page" class="lang-btn nuxt-link-exact-active nuxt-link-active active" data-v-27557ac3>
+          EN
+        </a></div> <button type="button" title="Switch to Dark Mode" aria-label="Switch to Dark Mode" class="theme-toggle-btn" data-v-27557ac3><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="theme-icon" data-v-27557ac3><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-v-27557ac3></path></svg></button></div> <div class="mobile-menu-trigger d-flex d-md-none" data-v-27557ac3><button type="button" aria-label="Toggle Navigation Menu" class="hamburger-btn" data-v-27557ac3><span class="hamburger-bar" data-v-27557ac3></span> <span class="hamburger-bar" data-v-27557ac3></span> <span class="hamburger-bar" data-v-27557ac3></span></button></div></div> <!----></header> <main class="site-main" data-v-83acdd40><div class="blog-container" data-v-83acdd40><nav aria-label="breadcrumb" class="breadcrumb-container" data-v-7bb4f422 data-v-83acdd40><ol class="breadcrumb-list" data-v-7bb4f422><li class="breadcrumb-item" data-v-7bb4f422><a href="/" class="breadcrumb-link nuxt-link-active" data-v-7bb4f422>
+        Home
+      </a> <span class="breadcrumb-separator" data-v-7bb4f422>/</span></li><li class="breadcrumb-item active" data-v-7bb4f422><span class="breadcrumb-current" data-v-7bb4f422>Case Studies</span> <!----></li></ol></nav> <div class="blog-index-page" data-v-8417092a data-v-83acdd40><header class="blog-header-section" data-v-8417092a><div class="manifest-stamp mb-3" data-v-8417092a><span class="stamp-dot" data-v-8417092a>●</span>
+      ARCHIVE & CASE STUDIES
+    </div> <h1 class="blog-main-title" data-v-8417092a>Case Studies & Technical Articles</h1> <p class="blog-main-subtitle" data-v-8417092a>Production post-mortems, architectural patterns, and engineering notes.</p></header> <section aria-label="Filter Articles" class="blog-filters-section" data-v-8417092a><div class="category-chips" data-v-8417092a><button type="button" class="category-btn active" data-v-8417092a>
+        All
+      </button><button type="button" class="category-btn" data-v-8417092a>
+        Articles
+      </button><button type="button" class="category-btn" data-v-8417092a>
+        Projects
+      </button></div> <div class="tag-filters" data-v-8417092a><span class="filter-label" data-v-8417092a>Tags:</span> <button type="button" class="tag-filter-pill" data-v-8417092a>
+        Architecture
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Azure Functions
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Azure Key Vault
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Beginner
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        CEFR
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Clean Architecture
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        CQRS
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Dart
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Data Pipeline
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        DevOps
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Docker
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        E-Commerce
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Flutter
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Full-Stack
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        German Learning
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Guide
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Hexagonal Architecture
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Image Processing
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Java
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        JWT
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Kubernetes
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Legacy Migration
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Materialized Views
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Microservices
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Mobile
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        mTLS
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        orjson
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Performance
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        PIM
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Pinia
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        PostgreSQL
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Python
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Quarkus
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Security
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Serverless
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        SFTP
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Software Development
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Spring Boot
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        sqflite_sqlcipher
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        SQLite
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Tailwind CSS
+      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+        Vue.js
+      </button> <!----></div></section> <hr class="rule-divider" data-v-8417092a> <section aria-label="Article List" class="blog-ledger-section" data-v-8417092a><div class="ledger-container" data-v-8417092a><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 01
+          </span> <div class="post-date-mono" data-v-8417092a>2025-10-14</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/docker-in-practice" data-v-8417092a>
+              Docker Containers — Simplifying Development and Deployment
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            After many years in software development, I've learned: The most interesting projects aren't the perfect ones, but those where you have to deal with reality. Docker shows its true strength not in ideal microservices worlds, but in connecting legacy systems with modern architectures – just like Amazon did.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Docker
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                DevOps
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Microservices
+              </span></div> <a href="/projects/docker-in-practice" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 02
+          </span> <div class="post-date-mono" data-v-8417092a>2025-08-30</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/voting-system" data-v-8417092a>
+              Chocolate for Peace — A Full-Stack Voting Platform for Charity
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            A chocolate brand that lets its customers decide where the donations go. I built the full platform: Spring Boot 3 backend with JWT auth and role-based access, Vue.js 3 frontend with Pinia, a separate admin panel, and a monthly vote-integrity system that makes the results trustworthy — not just technically, but in the eyes of the community.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Vue.js
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Spring Boot
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Full-Stack
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                JWT
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                PostgreSQL
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Pinia
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Tailwind CSS
+              </span></div> <a href="/projects/voting-system" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 03
+          </span> <div class="post-date-mono" data-v-8417092a>2025-07-15</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/german-nouns" data-v-8417092a>
+              Artikel Meister — A Flutter App for Mastering German Articles
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            Der, die, das — the three words that defeat most German learners. I built a Flutter app to fix that: CEFR-levelled quiz sessions (A1–B1), full noun declension tables with all four cases, multilingual hints in English, French and Arabic, and a 70%-pass unlock system that keeps learners moving forward without overwhelming them.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Flutter
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Dart
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                SQLite
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                CEFR
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                German Learning
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Mobile
+              </span></div> <a href="/projects/german-nouns" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 04
+          </span> <div class="post-date-mono" data-v-8417092a>2025-09-01</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/german-words-app" data-v-8417092a>
+              German Word App — Nouns, Verbs & Adjectives from A1 to C2
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            6,322 German words. Three word types. Six CEFR levels. This Flutter app covers nouns, verbs, and adjectives from absolute beginner to near-native — with verb conjugation exercises across Präsens, Perfekt and Präteritum, adjective comparative and superlative drills, an encrypted SQLite database, and a favourites system that lets learners build their own personal word list.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Flutter
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Dart
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                SQLite
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                CEFR
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                German Learning
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Mobile
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                sqflite_sqlcipher
+              </span></div> <a href="/projects/german-words-app" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 05
+          </span> <div class="post-date-mono" data-v-8417092a>2025-06-20</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/my-journey-into-ecommerce" data-v-8417092a>
+              What Is E-Commerce? A Beginner's Guide
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            An introductory guide to e-commerce models, technical foundations, and platform choices, including B2B, B2C, and enterprise solutions.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                E-Commerce
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Beginner
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Guide
+              </span></div> <a href="/projects/my-journey-into-ecommerce" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 06
+          </span> <div class="post-date-mono" data-v-8417092a>2025-10-16</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/azure-functions-in-practice" data-v-8417092a>
+              Azure Functions in Practice: Automated Image Processing in E-Commerce
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            A detailed case study on using Azure Functions for automatic image resizing in an e-commerce platform, covering architecture, implementation, and lessons learned about serverless computing.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Azure Functions
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Serverless
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                E-Commerce
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Image Processing
+              </span></div> <a href="/projects/azure-functions-in-practice" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 07
+          </span> <div class="post-date-mono" data-v-8417092a>2025-10-22</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/hexagonal-architecture-in-practice" data-v-8417092a>
+              Hexagonal Architecture in Practice: Why Less Changes Than You Think
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            After 15 years of software development, a surprising realization: modern architecture concepts like Hexagonal Architecture, Clean Architecture, or Ports & Adapters are not a revolution—they merely rename time-tested principles.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Software Development
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Architecture
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Hexagonal Architecture
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Clean Architecture
+              </span></div> <a href="/projects/hexagonal-architecture-in-practice" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 08
+          </span> <div class="post-date-mono" data-v-8417092a>2026-01-15</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/catalogforge-pim-pipeline" data-v-8417092a>
+              CatalogForge — Building a PIM Data Pipeline That Actually Handles Scale
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            A PIM export is a multi-gigabyte NDJSON file. The team needs 200 enriched products from an Excel list, in minutes, reliably. Here is how I built the pipeline: SFTP with smart caching, byte-level GTIN filtering with leading-zero normalisation, memoised category tree resolution, and threaded enrichment in a single pass with orjson.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Python
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                PIM
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Data Pipeline
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                orjson
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                SFTP
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                E-Commerce
+              </span></div> <a href="/projects/catalogforge-pim-pipeline" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 09
+          </span> <div class="post-date-mono" data-v-8417092a>2026-09-12</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/mtls-war-story" data-v-8417092a>
+              The mTLS War Story: A Trust Store, Two Secret Managers, and a Password That Isn't Supposed to Exist
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            A payment provider required mutual TLS. What looked like 'just add a certificate' turned into a trust-store gotcha that could break every other HTTPS call in the JVM, two competing secret-sync mechanisms quietly coexisting in the same cluster, and a keystore password Azure Key Vault throws away by design.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                mTLS
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Kubernetes
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Security
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Azure Key Vault
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Java
+              </span></div> <a href="/projects/mtls-war-story" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 10
+          </span> <div class="post-date-mono" data-v-8417092a>2026-06-22</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/best-offer-view-under-crawler-load" data-v-8417092a>
+              Keeping a Best-Offer View Fresh Under Crawler Load: CQRS, Read Replicas, and the Blue-Green Swap
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            How separating writes from reads, and swapping tables instead of updating in place, kept price and stock data fresh on a heavily-crawled product catalog.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Architecture
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                CQRS
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Materialized Views
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                PostgreSQL
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Quarkus
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Performance
+              </span></div> <a href="/projects/best-offer-view-under-crawler-load" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            CASE 11
+          </span> <div class="post-date-mono" data-v-8417092a>2026-06-22</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/strangler-fig-pattern-in-practice" data-v-8417092a>
+              The Strangler Fig Pattern in Practice: Retiring a Legacy Pricing Engine Without a Big-Bang Rewrite
+            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            How a facade-and-redirect strategy let a 12-year-old pricing monolith get replaced piece by piece, with checkout never going dark.
+          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Architecture
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Microservices
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Java
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Quarkus
+              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+                Legacy Migration
+              </span></div> <a href="/projects/strangler-fig-pattern-in-practice" class="ledger-link" data-v-8417092a>
+              Read Case Study →
+            </a></div></div></article></div></section></div></div></main> <footer class="manifest-footer" data-v-2d680a6e data-v-83acdd40><div class="footer-container" data-v-2d680a6e><div class="footer-copy" data-v-2d680a6e>© 2026 Jalal El Saddi</div> <div class="footer-updated" data-v-2d680a6e>
+      Last updated: September 24, 2026 at 05:07:27 PM
+    </div></div></footer></div></div></div><script defer src="/_nuxt/static/1790269647/blog/state.js"></script><script src="/_nuxt/024c560.js" defer></script><script src="/_nuxt/382d9ce.js" defer></script><script src="/_nuxt/10f4116.js" defer></script><script src="/_nuxt/8b5a108.js" defer></script><script src="/_nuxt/a3a86a1.js" defer></script>
   </body>
 </html>

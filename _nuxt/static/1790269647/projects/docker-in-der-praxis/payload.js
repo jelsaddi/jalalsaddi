@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/projects/docker-in-der-praxis", (function(a){return {data:[{meta:{title:"docker-in-der-praxis",description:a,image:a,date:a,tags:[]},html:a}],fetch:{},mutations:void 0}}("")));
