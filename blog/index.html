@@ -1,7 +1,7 @@
 <!doctype html>
 <html data-n-head-ssr lang="en" data-n-head="%7B%22lang%22:%7B%22ssr%22:%22en%22%7D%7D">
   <head>
-    <meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="og:site_name" property="og:site_name" content="Jalal El Saddi"><meta data-n-head="ssr" name="author" content="Jalal El Saddi"><meta data-n-head="ssr" name="robots" content="index, follow"><meta data-n-head="ssr" data-hid="description" name="description" content="Overview of case studies and technical articles by Jalal El Saddi — hands-on insights into Quarkus, CQRS, mTLS, microservices, PIM pipelines, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="og:type" property="og:type" content="website"><meta data-n-head="ssr" data-hid="og:url" property="og:url" content="https://jalalsaddi.de/blog/"><meta data-n-head="ssr" data-hid="og:title" property="og:title" content="Case Studies & Technical Articles — Jalal El Saddi"><meta data-n-head="ssr" data-hid="og:description" property="og:description" content="Overview of case studies and technical articles by Jalal El Saddi — hands-on insights into Quarkus, CQRS, mTLS, microservices, PIM pipelines, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://jalalsaddi.de/blog_banner.jpg"><meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary_large_image"><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="Case Studies & Technical Articles — Jalal El Saddi"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="Overview of case studies and technical articles by Jalal El Saddi — hands-on insights into Quarkus, CQRS, mTLS, microservices, PIM pipelines, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="twitter:image" name="twitter:image" content="https://jalalsaddi.de/blog_banner.jpg"><title>Case Studies & Technical Articles — Jalal El Saddi</title><base href="/"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="favicon.ico"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"><link data-n-head="ssr" data-hid="canonical" rel="canonical" href="https://jalalsaddi.de/blog/"><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/solid.min.js"></script><script data-n-head="ssr" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script><script data-n-head="ssr" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script><link rel="preload" href="/_nuxt/024c560.js" as="script"><link rel="preload" href="/_nuxt/10f4116.js" as="script"><link rel="preload" href="/_nuxt/8b5a108.js" as="script"><link rel="preload" href="/_nuxt/a3a86a1.js" as="script"><link rel="preload" href="/_nuxt/382d9ce.js" as="script"><style data-vue-ssr-id="629c04aa:0 47b96ca8:0 591eb602:0 491c37e4:0 8e6eec00:0 69e01fb5:0 6bcfaadd:0">:root{--paper:#edeff1;--paper-raised:#e3e6e9;--ink:#1a2138;--ink-soft:#454e63;--rule:#c7ccd1;--brass:#a9752f;--brass-subtle:rgba(169,117,47,.12);--brass-hover:#8c5f24;--font-serif:"IBM Plex Serif",Georgia,"Times New Roman",serif;--font-sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;--font-mono:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;--bg:var(--paper);--bg-secondary:var(--paper-raised);--color-primary:var(--brass);--color-primary-hover:var(--brass-hover);--color-secondary:var(--ink-soft);--color-text-primary:var(--ink);--color-text-secondary:var(--ink-soft);--border-color:var(--rule)}.dark-mode{--paper:#1b2024;--paper-raised:#242a30;--ink:#e7e9ec;--ink-soft:#a8afb8;--rule:#3a4048;--brass:#c79552;--brass-subtle:rgba(199,149,82,.15);--brass-hover:#dba865;--bg:var(--paper);--bg-secondary:var(--paper-raised);--color-primary:var(--brass);--color-primary-hover:var(--brass-hover);--color-secondary:var(--ink-soft);--color-text-primary:var(--ink);--color-text-secondary:var(--ink-soft);--border-color:var(--rule)}html{background-color:#edeff1;background-color:var(--paper);color:#1a2138;color:var(--ink);font-size:16px}*,:after,:before,html{box-sizing:border-box}body{background-color:#edeff1;background-color:var(--paper);font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-family:var(--font-sans);line-height:1.65;margin:0;padding:0;transition:background-color .25s ease,color .25s ease;-webkit-font-smoothing:antialiased}body,h1,h2,h3,h4,h5,h6{color:#1a2138;color:var(--ink)}h1,h2,h3,h4,h5,h6{font-family:"IBM Plex Serif",Georgia,"Times New Roman",serif;font-family:var(--font-serif);font-weight:600;line-height:1.25;margin-top:0}h1{font-size:2.35rem}h2{font-size:1.75rem}h3{font-size:1.35rem}h4{font-size:1.15rem}p{margin-bottom:1rem;margin-top:0}a{color:#a9752f;color:var(--brass);-webkit-text-decoration:none;text-decoration:none;transition:color .2s ease,border-color .2s ease}a:focus,a:hover{color:#8c5f24;color:var(--brass-hover);-webkit-text-decoration:underline;text-decoration:underline}.manifest-stamp,code,kbd,pre,samp{font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono)}.manifest-stamp{align-items:center;background-color:rgba(169,117,47,.12);background-color:var(--brass-subtle);border:1.5px solid #a9752f;border:1.5px solid var(--brass);border-radius:2px;box-shadow:1px 2px 0 rgba(0,0,0,.06);color:#a9752f;color:var(--brass);display:inline-flex;font-size:.76rem;font-weight:600;gap:.4rem;letter-spacing:.08em;padding:.3rem .65rem;text-transform:uppercase;transform:rotate(-1deg);-webkit-user-select:none;-moz-user-select:none;user-select:none;width:-moz-fit-content;width:fit-content}.manifest-stamp.case-stamp{border-radius:2px;font-size:.72rem;padding:.2rem .5rem;transform:none}.ledger-container{margin:0 auto;max-width:900px;width:100%}.ledger-row{display:grid;grid-template-columns:140px 1fr;grid-gap:1.5rem;border-bottom:1px solid #c7ccd1;border-bottom:1px solid var(--rule);gap:1.5rem;padding:1.35rem 0;transition:background-color .15s ease}.ledger-row:first-of-type{border-top:1px solid #c7ccd1;border-top:1px solid var(--rule)}.ledger-date{color:#454e63;color:var(--ink-soft);font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono);font-size:.85rem;letter-spacing:.02em;padding-top:.15rem}.ledger-body{display:flex;flex-direction:column;gap:.4rem}.ledger-title{font-family:"IBM Plex Serif",Georgia,"Times New Roman",serif;font-family:var(--font-serif);font-size:1.2rem;font-weight:600;margin:0}.ledger-title,.ledger-title a{color:#1a2138;color:var(--ink)}.ledger-title a{-webkit-text-decoration:none;text-decoration:none}.ledger-title a:hover{color:#a9752f;color:var(--brass);-webkit-text-decoration:underline;text-decoration:underline}.ledger-desc{color:#454e63;color:var(--ink-soft);font-size:.95rem;line-height:1.55;margin:0}.ledger-link{align-items:center;color:#a9752f;color:var(--brass);display:inline-flex;font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-family:var(--font-sans);font-size:.9rem;font-weight:600;gap:.35rem;margin-top:.25rem}.ledger-link:hover{color:#8c5f24;color:var(--brass-hover);-webkit-text-decoration:underline;text-decoration:underline}.tag-pill{background-color:#e3e6e9;background-color:var(--paper-raised);border:1px solid #c7ccd1;border:1px solid var(--rule);border-radius:2px;color:#1a2138;color:var(--ink);display:inline-block;font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono);font-size:.78rem;line-height:1.3;padding:.2rem .55rem}.tag-pill.active{background-color:#a9752f;background-color:var(--brass);border-color:#a9752f;border-color:var(--brass);color:#fff}.kenntnisse-block{background-color:#e3e6e9;background-color:var(--paper-raised);border:1px solid #c7ccd1;border:1px solid var(--rule);border-radius:3px;margin:2rem 0 2.5rem;padding:1.5rem}.kenntnisse-title{color:#a9752f;color:var(--brass);font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono);font-size:.8rem;font-weight:600;letter-spacing:.08em;margin-bottom:.85rem;text-transform:uppercase}.kenntnisse-tags{display:flex;flex-wrap:wrap;gap:.45rem}.manifest-btn{align-items:center;background-color:#a9752f;background-color:var(--brass);border:1px solid #a9752f;border:1px solid var(--brass);border-radius:3px;color:#fff!important;cursor:pointer;display:inline-flex;font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-family:var(--font-sans);font-size:.92rem;font-weight:600;gap:.5rem;justify-content:center;padding:.65rem 1.25rem;-webkit-text-decoration:none!important;text-decoration:none!important;transition:background-color .2s ease,border-color .2s ease,transform .15s ease}.manifest-btn:hover{background-color:#8c5f24;background-color:var(--brass-hover);border-color:#8c5f24;border-color:var(--brass-hover);transform:translateY(-1px)}.manifest-btn-outline{background-color:transparent;border:1px solid #c7ccd1;border:1px solid var(--rule);color:#1a2138!important;color:var(--ink)!important}.manifest-btn-outline:hover{background-color:#e3e6e9;background-color:var(--paper-raised);border-color:#a9752f;border-color:var(--brass);color:#a9752f!important;color:var(--brass)!important}.rule-divider{border:none;border-top:1px solid #c7ccd1;border-top:1px solid var(--rule);margin:2.5rem 0}@media (max-width:768px){.ledger-row{gap:.4rem;grid-template-columns:1fr;padding:1.15rem 0}.ledger-date{font-size:.78rem}h1{font-size:1.95rem}h2{font-size:1.5rem}}.nuxt-progress{background-color:#a9752f;height:2px;left:0;opacity:1;position:fixed;right:0;top:0;transition:width .1s,opacity .4s;width:0;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.blog-container[data-v-83acdd40]{flex:1;margin:0 auto;max-width:960px;padding:1.5rem 1.25rem 3rem;width:100%}.site-header[data-v-27557ac3]{backdrop-filter:blur(8px);background-color:var(--paper);border-bottom:1px solid var(--rule);left:0;position:sticky;top:0;transition:background-color .25s ease,border-color .25s ease;width:100%;z-index:1200}.site-nav-container[data-v-27557ac3]{align-items:center;display:flex;justify-content:space-between;margin:0 auto;max-width:1080px;padding:.85rem 1.5rem}.site-brand[data-v-27557ac3]{font-family:var(--font-serif);font-size:1.25rem;font-weight:700;letter-spacing:-.01em}.brand-link[data-v-27557ac3]{color:var(--ink);-webkit-text-decoration:none!important;text-decoration:none!important}.brand-link[data-v-27557ac3]:hover{color:var(--brass)}.site-nav-links[data-v-27557ac3]{align-items:center;display:flex;gap:2rem}.nav-item-link[data-v-27557ac3]{color:var(--ink-soft);font-family:var(--font-sans);font-size:.95rem;font-weight:500;padding:.35rem 0;position:relative;-webkit-text-decoration:none!important;text-decoration:none!important;transition:color .2s ease}.nav-item-link[data-v-27557ac3]:hover{color:var(--ink)}.nav-item-link.active[data-v-27557ac3]{border-bottom:2px solid var(--brass);color:var(--ink);font-weight:600}.site-controls[data-v-27557ac3]{align-items:center;display:flex;gap:1.25rem}.lang-switcher[data-v-27557ac3]{align-items:center;display:inline-flex;font-family:var(--font-mono);font-size:.82rem;gap:.25rem;letter-spacing:.05em}.lang-btn[data-v-27557ac3]{color:var(--ink-soft);font-weight:500;padding:.2rem .3rem;-webkit-text-decoration:none!important;text-decoration:none!important;transition:color .15s ease}.lang-btn[data-v-27557ac3]:hover{color:var(--ink)}.lang-btn.active[data-v-27557ac3]{border-bottom:1.5px solid var(--brass);color:var(--brass);font-weight:700}.lang-divider[data-v-27557ac3]{color:var(--rule)}.theme-toggle-btn[data-v-27557ac3]{align-items:center;background:0 0;border:1px solid var(--rule);border-radius:4px;color:var(--ink-soft);cursor:pointer;display:inline-flex;justify-content:center;padding:.4rem .55rem;transition:all .2s ease}.theme-toggle-btn[data-v-27557ac3]:hover{background-color:var(--paper-raised);border-color:var(--brass);color:var(--ink)}.theme-icon[data-v-27557ac3]{display:block}.theme-label[data-v-27557ac3]{font-family:var(--font-mono);font-size:.8rem;margin-right:.4rem}.hamburger-btn[data-v-27557ac3]{background:0 0;border:1px solid var(--rule);border-radius:4px;cursor:pointer;display:flex;flex-direction:column;height:38px;justify-content:space-around;padding:.5rem .6rem;width:38px}.hamburger-bar[data-v-27557ac3]{background-color:var(--ink);display:block;height:2px;transition:all .25s ease;width:100%}.mobile-drawer[data-v-27557ac3]{background-color:var(--paper);border-bottom:1px solid var(--rule);padding:1.25rem 1.5rem}.mobile-nav-links[data-v-27557ac3]{display:flex;flex-direction:column;gap:1rem;margin-bottom:1.25rem}.mobile-nav-item[data-v-27557ac3]{border-bottom:1px solid var(--rule);color:var(--ink-soft);font-family:var(--font-sans);font-size:1.05rem;font-weight:500;padding:.4rem 0;-webkit-text-decoration:none!important;text-decoration:none!important}.mobile-nav-item.active[data-v-27557ac3]{color:var(--brass);font-weight:600}.mobile-drawer-controls[data-v-27557ac3]{align-items:center;display:flex;justify-content:space-between;padding-top:.5rem}.slide-menu-enter-active[data-v-27557ac3],.slide-menu-leave-active[data-v-27557ac3]{transition:all .2s ease-out}.slide-menu-enter[data-v-27557ac3],.slide-menu-leave-to[data-v-27557ac3]{opacity:0;transform:translateY(-8px)}.breadcrumb-container[data-v-7bb4f422]{font-family:var(--font-mono);font-size:.8rem;margin:.5rem 0 1.5rem}.breadcrumb-list[data-v-7bb4f422]{align-items:center;display:flex;flex-wrap:wrap;gap:.25rem;list-style:none;margin:0;padding:0}.breadcrumb-item[data-v-7bb4f422]{align-items:center;display:inline-flex;gap:.4rem}.breadcrumb-link[data-v-7bb4f422]{color:var(--ink-soft);-webkit-text-decoration:none;text-decoration:none;transition:color .15s ease}.breadcrumb-link[data-v-7bb4f422]:hover{color:var(--brass);-webkit-text-decoration:underline;text-decoration:underline}.breadcrumb-current[data-v-7bb4f422]{color:var(--ink);font-weight:600;max-width:320px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.breadcrumb-separator[data-v-7bb4f422]{color:var(--rule);padding:0 .1rem}@media (max-width:768px){.breadcrumb-current[data-v-7bb4f422]{max-width:160px}}.blog-index-page[data-v-8417092a]{width:100%}.blog-header-section[data-v-8417092a]{margin-bottom:2rem}.stamp-dot[data-v-8417092a]{color:#10b981;font-size:.7rem}.blog-main-title[data-v-8417092a]{color:var(--ink);font-family:var(--font-serif);font-size:2.35rem;font-weight:700;letter-spacing:-.01em;margin-bottom:.5rem}.blog-main-subtitle[data-v-8417092a]{color:var(--ink-soft);font-size:1.05rem;line-height:1.6;margin:0;max-width:720px}.blog-filters-section[data-v-8417092a]{display:flex;flex-direction:column;gap:1.25rem;margin:1.5rem 0}.category-chips[data-v-8417092a]{display:flex;flex-wrap:wrap;gap:.5rem}.category-btn[data-v-8417092a]{background-color:var(--paper-raised);border:1px solid var(--rule);border-radius:2px;color:var(--ink-soft);cursor:pointer;font-family:var(--font-sans);font-size:.88rem;font-weight:600;padding:.4rem .9rem;transition:all .15s ease}.category-btn[data-v-8417092a]:hover{border-color:var(--brass);color:var(--ink)}.category-btn.active[data-v-8417092a]{background-color:var(--brass);border-color:var(--brass);color:#fff}.tag-filters[data-v-8417092a]{align-items:center;display:flex;flex-wrap:wrap;gap:.45rem}.filter-label[data-v-8417092a]{font-size:.78rem;font-weight:600;letter-spacing:.05em;margin-right:.25rem;text-transform:uppercase}.filter-label[data-v-8417092a],.tag-filter-pill[data-v-8417092a]{color:var(--ink-soft);font-family:var(--font-mono)}.tag-filter-pill[data-v-8417092a]{background-color:transparent;border:1px solid var(--rule);border-radius:2px;cursor:pointer;font-size:.76rem;padding:.2rem .55rem;transition:all .15s ease}.tag-filter-pill[data-v-8417092a]:hover{border-color:var(--ink-soft);color:var(--ink)}.tag-filter-pill.active[data-v-8417092a]{background-color:var(--brass-subtle);border-color:var(--brass);color:var(--brass);font-weight:600}.clear-tags-btn[data-v-8417092a]{background:0 0;border:none;color:var(--brass);cursor:pointer;font-family:var(--font-mono);font-size:.74rem;padding:0 .4rem;-webkit-text-decoration:underline;text-decoration:underline}.post-date-mono[data-v-8417092a]{color:var(--ink-soft);font-size:.78rem;margin-top:.4rem}.ledger-meta-row[data-v-8417092a]{align-items:center;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:space-between;margin-top:.6rem}.ledger-tags[data-v-8417092a]{display:flex;flex-wrap:wrap;gap:.35rem}.no-results[data-v-8417092a]{color:var(--ink-soft);padding:3rem 1rem;text-align:center}@media (max-width:768px){.blog-main-title[data-v-8417092a]{font-size:1.95rem}.ledger-meta-row[data-v-8417092a]{align-items:flex-start;flex-direction:column}}.manifest-footer[data-v-2d680a6e]{background-color:var(--paper);border-top:1px solid var(--rule);margin-top:auto;padding:1.5rem 1.25rem;width:100%}.footer-container[data-v-2d680a6e]{align-items:center;color:var(--ink-soft);display:flex;flex-wrap:wrap;font-family:var(--font-mono);font-size:.8rem;gap:.75rem;justify-content:space-between;margin:0 auto;max-width:900px}@media (max-width:768px){.footer-container[data-v-2d680a6e]{flex-direction:column;justify-content:center;text-align:center}}</style><link rel="preload" href="/_nuxt/static/1790269647/blog/state.js" as="script"><link rel="preload" href="/_nuxt/static/1790269647/blog/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1790269647/manifest.js" as="script">
+    <meta data-n-head="ssr" charset="utf-8"><meta data-n-head="ssr" name="viewport" content="width=device-width,initial-scale=1"><meta data-n-head="ssr" data-hid="og:site_name" property="og:site_name" content="Jalal El Saddi"><meta data-n-head="ssr" name="author" content="Jalal El Saddi"><meta data-n-head="ssr" name="robots" content="index, follow"><meta data-n-head="ssr" data-hid="description" name="description" content="Overview of case studies and technical articles by Jalal El Saddi — hands-on insights into Quarkus, CQRS, mTLS, microservices, PIM pipelines, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="og:type" property="og:type" content="website"><meta data-n-head="ssr" data-hid="og:url" property="og:url" content="https://jalalsaddi.de/blog/"><meta data-n-head="ssr" data-hid="og:title" property="og:title" content="Case Studies & Technical Articles — Jalal El Saddi"><meta data-n-head="ssr" data-hid="og:description" property="og:description" content="Overview of case studies and technical articles by Jalal El Saddi — hands-on insights into Quarkus, CQRS, mTLS, microservices, PIM pipelines, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="og:image" property="og:image" content="https://jalalsaddi.de/blog_banner.jpg"><meta data-n-head="ssr" data-hid="twitter:card" name="twitter:card" content="summary_large_image"><meta data-n-head="ssr" data-hid="twitter:title" name="twitter:title" content="Case Studies & Technical Articles — Jalal El Saddi"><meta data-n-head="ssr" data-hid="twitter:description" name="twitter:description" content="Overview of case studies and technical articles by Jalal El Saddi — hands-on insights into Quarkus, CQRS, mTLS, microservices, PIM pipelines, and enterprise e-commerce."><meta data-n-head="ssr" data-hid="twitter:image" name="twitter:image" content="https://jalalsaddi.de/blog_banner.jpg"><title>Case Studies & Technical Articles — Jalal El Saddi</title><base href="/"><link data-n-head="ssr" rel="icon" type="image/x-icon" href="favicon.ico"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600&display=swap"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/konpa/devicon@df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous"><link data-n-head="ssr" rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous"><link data-n-head="ssr" data-hid="canonical" rel="canonical" href="https://jalalsaddi.de/blog/"><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/js/solid.min.js"></script><script data-n-head="ssr" src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script><script data-n-head="ssr" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script><script data-n-head="ssr" src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script><link rel="preload" href="/_nuxt/7d4fb9e.js" as="script"><link rel="preload" href="/_nuxt/4d15318.js" as="script"><link rel="preload" href="/_nuxt/2f9c4c0.js" as="script"><link rel="preload" href="/_nuxt/425cb15.js" as="script"><link rel="preload" href="/_nuxt/c2d8280.js" as="script"><style data-vue-ssr-id="629c04aa:0 47b96ca8:0 591eb602:0 491c37e4:0 8e6eec00:0 2a1b154f:0 6bcfaadd:0">:root{--paper:#edeff1;--paper-raised:#e3e6e9;--ink:#1a2138;--ink-soft:#454e63;--rule:#c7ccd1;--brass:#a9752f;--brass-subtle:rgba(169,117,47,.12);--brass-hover:#8c5f24;--font-serif:"IBM Plex Serif",Georgia,"Times New Roman",serif;--font-sans:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;--font-mono:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;--bg:var(--paper);--bg-secondary:var(--paper-raised);--color-primary:var(--brass);--color-primary-hover:var(--brass-hover);--color-secondary:var(--ink-soft);--color-text-primary:var(--ink);--color-text-secondary:var(--ink-soft);--border-color:var(--rule)}.dark-mode{--paper:#1b2024;--paper-raised:#242a30;--ink:#e7e9ec;--ink-soft:#a8afb8;--rule:#3a4048;--brass:#c79552;--brass-subtle:rgba(199,149,82,.15);--brass-hover:#dba865;--bg:var(--paper);--bg-secondary:var(--paper-raised);--color-primary:var(--brass);--color-primary-hover:var(--brass-hover);--color-secondary:var(--ink-soft);--color-text-primary:var(--ink);--color-text-secondary:var(--ink-soft);--border-color:var(--rule)}html{background-color:#edeff1;background-color:var(--paper);color:#1a2138;color:var(--ink);font-size:16px}*,:after,:before,html{box-sizing:border-box}body{background-color:#edeff1;background-color:var(--paper);font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-family:var(--font-sans);line-height:1.65;margin:0;padding:0;transition:background-color .25s ease,color .25s ease;-webkit-font-smoothing:antialiased}body,h1,h2,h3,h4,h5,h6{color:#1a2138;color:var(--ink)}h1,h2,h3,h4,h5,h6{font-family:"IBM Plex Serif",Georgia,"Times New Roman",serif;font-family:var(--font-serif);font-weight:600;line-height:1.25;margin-top:0}h1{font-size:2.35rem}h2{font-size:1.75rem}h3{font-size:1.35rem}h4{font-size:1.15rem}p{margin-bottom:1rem;margin-top:0}a{color:#a9752f;color:var(--brass);-webkit-text-decoration:none;text-decoration:none;transition:color .2s ease,border-color .2s ease}a:focus,a:hover{color:#8c5f24;color:var(--brass-hover);-webkit-text-decoration:underline;text-decoration:underline}.manifest-stamp,code,kbd,pre,samp{font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono)}.manifest-stamp{align-items:center;background-color:rgba(169,117,47,.12);background-color:var(--brass-subtle);border:1.5px solid #a9752f;border:1.5px solid var(--brass);border-radius:2px;box-shadow:1px 2px 0 rgba(0,0,0,.06);color:#a9752f;color:var(--brass);display:inline-flex;font-size:.76rem;font-weight:600;gap:.4rem;letter-spacing:.08em;padding:.3rem .65rem;text-transform:uppercase;transform:rotate(-1deg);-webkit-user-select:none;-moz-user-select:none;user-select:none;width:-moz-fit-content;width:fit-content}.manifest-stamp.case-stamp{border-radius:2px;font-size:.72rem;padding:.2rem .5rem;transform:none}.ledger-container{margin:0 auto;max-width:900px;width:100%}.ledger-row{display:grid;grid-template-columns:140px 1fr;grid-gap:1.5rem;border-bottom:1px solid #c7ccd1;border-bottom:1px solid var(--rule);gap:1.5rem;padding:1.35rem 0;transition:background-color .15s ease}.ledger-row:first-of-type{border-top:1px solid #c7ccd1;border-top:1px solid var(--rule)}.ledger-date{color:#454e63;color:var(--ink-soft);font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono);font-size:.85rem;letter-spacing:.02em;padding-top:.15rem}.ledger-body{display:flex;flex-direction:column;gap:.4rem}.ledger-title{font-family:"IBM Plex Serif",Georgia,"Times New Roman",serif;font-family:var(--font-serif);font-size:1.2rem;font-weight:600;margin:0}.ledger-title,.ledger-title a{color:#1a2138;color:var(--ink)}.ledger-title a{-webkit-text-decoration:none;text-decoration:none}.ledger-title a:hover{color:#a9752f;color:var(--brass);-webkit-text-decoration:underline;text-decoration:underline}.ledger-desc{color:#454e63;color:var(--ink-soft);font-size:.95rem;line-height:1.55;margin:0}.ledger-link{align-items:center;color:#a9752f;color:var(--brass);display:inline-flex;font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-family:var(--font-sans);font-size:.9rem;font-weight:600;gap:.35rem;margin-top:.25rem}.ledger-link:hover{color:#8c5f24;color:var(--brass-hover);-webkit-text-decoration:underline;text-decoration:underline}.tag-pill{background-color:#e3e6e9;background-color:var(--paper-raised);border:1px solid #c7ccd1;border:1px solid var(--rule);border-radius:2px;color:#1a2138;color:var(--ink);display:inline-block;font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono);font-size:.78rem;line-height:1.3;padding:.2rem .55rem}.tag-pill.active{background-color:#a9752f;background-color:var(--brass);border-color:#a9752f;border-color:var(--brass);color:#fff}.kenntnisse-block{background-color:#e3e6e9;background-color:var(--paper-raised);border:1px solid #c7ccd1;border:1px solid var(--rule);border-radius:3px;margin:2rem 0 2.5rem;padding:1.5rem}.kenntnisse-title{color:#a9752f;color:var(--brass);font-family:"IBM Plex Mono",Menlo,Monaco,Consolas,"Liberation Mono",monospace;font-family:var(--font-mono);font-size:.8rem;font-weight:600;letter-spacing:.08em;margin-bottom:.85rem;text-transform:uppercase}.kenntnisse-tags{display:flex;flex-wrap:wrap;gap:.45rem}.manifest-btn{align-items:center;background-color:#a9752f;background-color:var(--brass);border:1px solid #a9752f;border:1px solid var(--brass);border-radius:3px;color:#fff!important;cursor:pointer;display:inline-flex;font-family:"IBM Plex Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-family:var(--font-sans);font-size:.92rem;font-weight:600;gap:.5rem;justify-content:center;padding:.65rem 1.25rem;-webkit-text-decoration:none!important;text-decoration:none!important;transition:background-color .2s ease,border-color .2s ease,transform .15s ease}.manifest-btn:hover{background-color:#8c5f24;background-color:var(--brass-hover);border-color:#8c5f24;border-color:var(--brass-hover);transform:translateY(-1px)}.manifest-btn-outline{background-color:transparent;border:1px solid #c7ccd1;border:1px solid var(--rule);color:#1a2138!important;color:var(--ink)!important}.manifest-btn-outline:hover{background-color:#e3e6e9;background-color:var(--paper-raised);border-color:#a9752f;border-color:var(--brass);color:#a9752f!important;color:var(--brass)!important}.rule-divider{border:none;border-top:1px solid #c7ccd1;border-top:1px solid var(--rule);margin:2.5rem 0}@media (max-width:768px){.ledger-row{gap:.4rem;grid-template-columns:1fr;padding:1.15rem 0}.ledger-date{font-size:.78rem}h1{font-size:1.95rem}h2{font-size:1.5rem}}@media print{.article-footer-nav,.blog-footer-container,.download-pdf-btn,.resume-footer-pointer-section,.site-header,.view-all-wrapper{display:none!important}body,html{background-color:#fff!important;color:#1a1a1a!important}.resume-index-page{padding:0!important}.archived-row,.kenntnisse-block{background-color:#f8f8f8!important;border:1px solid #e0e0e0!important}}.nuxt-progress{background-color:#a9752f;height:2px;left:0;opacity:1;position:fixed;right:0;top:0;transition:width .1s,opacity .4s;width:0;z-index:999999}.nuxt-progress.nuxt-progress-notransition{transition:none}.nuxt-progress-failed{background-color:red}.blog-container[data-v-83acdd40]{flex:1;margin:0 auto;max-width:960px;padding:1.5rem 1.25rem 3rem;width:100%}.site-header[data-v-27557ac3]{backdrop-filter:blur(8px);background-color:var(--paper);border-bottom:1px solid var(--rule);left:0;position:sticky;top:0;transition:background-color .25s ease,border-color .25s ease;width:100%;z-index:1200}.site-nav-container[data-v-27557ac3]{align-items:center;display:flex;justify-content:space-between;margin:0 auto;max-width:1080px;padding:.85rem 1.5rem}.site-brand[data-v-27557ac3]{font-family:var(--font-serif);font-size:1.25rem;font-weight:700;letter-spacing:-.01em}.brand-link[data-v-27557ac3]{color:var(--ink);-webkit-text-decoration:none!important;text-decoration:none!important}.brand-link[data-v-27557ac3]:hover{color:var(--brass)}.site-nav-links[data-v-27557ac3]{align-items:center;display:flex;gap:2rem}.nav-item-link[data-v-27557ac3]{color:var(--ink-soft);font-family:var(--font-sans);font-size:.95rem;font-weight:500;padding:.35rem 0;position:relative;-webkit-text-decoration:none!important;text-decoration:none!important;transition:color .2s ease}.nav-item-link[data-v-27557ac3]:hover{color:var(--ink)}.nav-item-link.active[data-v-27557ac3]{border-bottom:2px solid var(--brass);color:var(--ink);font-weight:600}.site-controls[data-v-27557ac3]{align-items:center;display:flex;gap:1.25rem}.lang-switcher[data-v-27557ac3]{align-items:center;display:inline-flex;font-family:var(--font-mono);font-size:.82rem;gap:.25rem;letter-spacing:.05em}.lang-btn[data-v-27557ac3]{color:var(--ink-soft);font-weight:500;padding:.2rem .3rem;-webkit-text-decoration:none!important;text-decoration:none!important;transition:color .15s ease}.lang-btn[data-v-27557ac3]:hover{color:var(--ink)}.lang-btn.active[data-v-27557ac3]{border-bottom:1.5px solid var(--brass);color:var(--brass);font-weight:700}.lang-divider[data-v-27557ac3]{color:var(--rule)}.theme-toggle-btn[data-v-27557ac3]{align-items:center;background:0 0;border:1px solid var(--rule);border-radius:4px;color:var(--ink-soft);cursor:pointer;display:inline-flex;justify-content:center;padding:.4rem .55rem;transition:all .2s ease}.theme-toggle-btn[data-v-27557ac3]:hover{background-color:var(--paper-raised);border-color:var(--brass);color:var(--ink)}.theme-icon[data-v-27557ac3]{display:block}.theme-label[data-v-27557ac3]{font-family:var(--font-mono);font-size:.8rem;margin-right:.4rem}.hamburger-btn[data-v-27557ac3]{background:0 0;border:1px solid var(--rule);border-radius:4px;cursor:pointer;display:flex;flex-direction:column;height:38px;justify-content:space-around;padding:.5rem .6rem;width:38px}.hamburger-bar[data-v-27557ac3]{background-color:var(--ink);display:block;height:2px;transition:all .25s ease;width:100%}.mobile-drawer[data-v-27557ac3]{background-color:var(--paper);border-bottom:1px solid var(--rule);padding:1.25rem 1.5rem}.mobile-nav-links[data-v-27557ac3]{display:flex;flex-direction:column;gap:1rem;margin-bottom:1.25rem}.mobile-nav-item[data-v-27557ac3]{border-bottom:1px solid var(--rule);color:var(--ink-soft);font-family:var(--font-sans);font-size:1.05rem;font-weight:500;padding:.4rem 0;-webkit-text-decoration:none!important;text-decoration:none!important}.mobile-nav-item.active[data-v-27557ac3]{color:var(--brass);font-weight:600}.mobile-drawer-controls[data-v-27557ac3]{align-items:center;display:flex;justify-content:space-between;padding-top:.5rem}.slide-menu-enter-active[data-v-27557ac3],.slide-menu-leave-active[data-v-27557ac3]{transition:all .2s ease-out}.slide-menu-enter[data-v-27557ac3],.slide-menu-leave-to[data-v-27557ac3]{opacity:0;transform:translateY(-8px)}.breadcrumb-container[data-v-7bb4f422]{font-family:var(--font-mono);font-size:.8rem;margin:.5rem 0 1.5rem}.breadcrumb-list[data-v-7bb4f422]{align-items:center;display:flex;flex-wrap:wrap;gap:.25rem;list-style:none;margin:0;padding:0}.breadcrumb-item[data-v-7bb4f422]{align-items:center;display:inline-flex;gap:.4rem}.breadcrumb-link[data-v-7bb4f422]{color:var(--ink-soft);-webkit-text-decoration:none;text-decoration:none;transition:color .15s ease}.breadcrumb-link[data-v-7bb4f422]:hover{color:var(--brass);-webkit-text-decoration:underline;text-decoration:underline}.breadcrumb-current[data-v-7bb4f422]{color:var(--ink);font-weight:600;max-width:320px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.breadcrumb-separator[data-v-7bb4f422]{color:var(--rule);padding:0 .1rem}@media (max-width:768px){.breadcrumb-current[data-v-7bb4f422]{max-width:160px}}.blog-index-page[data-v-247f81a7]{width:100%}.blog-header-section[data-v-247f81a7]{margin-bottom:2rem}.stamp-dot[data-v-247f81a7]{color:#10b981;font-size:.7rem}.blog-main-title[data-v-247f81a7]{color:var(--ink);font-family:var(--font-serif);font-size:2.35rem;font-weight:700;letter-spacing:-.01em;margin-bottom:.5rem}.blog-main-subtitle[data-v-247f81a7]{color:var(--ink-soft);font-size:1.05rem;line-height:1.6;margin:0;max-width:720px}.blog-filters-section[data-v-247f81a7]{display:flex;flex-direction:column;gap:1.25rem;margin:1.5rem 0}.category-chips[data-v-247f81a7]{display:flex;flex-wrap:wrap;gap:.5rem}.category-btn[data-v-247f81a7]{background-color:var(--paper-raised);border:1px solid var(--rule);border-radius:2px;color:var(--ink-soft);cursor:pointer;font-family:var(--font-sans);font-size:.88rem;font-weight:600;padding:.4rem .9rem;transition:all .15s ease}.category-btn[data-v-247f81a7]:hover{border-color:var(--brass);color:var(--ink)}.category-btn.active[data-v-247f81a7]{background-color:var(--brass);border-color:var(--brass);color:#fff}.tag-filters[data-v-247f81a7]{align-items:center;display:flex;flex-wrap:wrap;gap:.45rem}.filter-label[data-v-247f81a7]{font-size:.78rem;font-weight:600;letter-spacing:.05em;margin-right:.25rem;text-transform:uppercase}.filter-label[data-v-247f81a7],.tag-filter-pill[data-v-247f81a7]{color:var(--ink-soft);font-family:var(--font-mono)}.tag-filter-pill[data-v-247f81a7]{background-color:transparent;border:1px solid var(--rule);border-radius:2px;cursor:pointer;font-size:.76rem;padding:.2rem .55rem;transition:all .15s ease}.tag-filter-pill[data-v-247f81a7]:hover{border-color:var(--ink-soft);color:var(--ink)}.tag-filter-pill.active[data-v-247f81a7]{background-color:var(--brass-subtle);border-color:var(--brass);color:var(--brass);font-weight:600}.clear-tags-btn[data-v-247f81a7]{background:0 0;border:none;color:var(--brass);cursor:pointer;font-family:var(--font-mono);font-size:.74rem;padding:0 .4rem;-webkit-text-decoration:underline;text-decoration:underline}.post-date-mono[data-v-247f81a7]{color:var(--ink-soft);font-size:.78rem;margin-top:.4rem}.job-era-badge-row[data-v-247f81a7]{margin-bottom:.35rem}.job-era-tag[data-v-247f81a7]{background-color:var(--brass-subtle);border:1px solid var(--rule);border-radius:2px;color:var(--brass);display:inline-block;font-family:var(--font-mono);font-size:.74rem;font-weight:500;padding:.15rem .45rem}.job-era-label[data-v-247f81a7]{color:var(--ink-soft);margin-right:.25rem}.ledger-meta-row[data-v-247f81a7]{align-items:center;display:flex;flex-wrap:wrap;gap:.75rem;justify-content:space-between;margin-top:.6rem}.ledger-tags[data-v-247f81a7]{display:flex;flex-wrap:wrap;gap:.35rem}.no-results[data-v-247f81a7]{color:var(--ink-soft);padding:3rem 1rem;text-align:center}@media (max-width:768px){.blog-main-title[data-v-247f81a7]{font-size:1.95rem}.ledger-meta-row[data-v-247f81a7]{align-items:flex-start;flex-direction:column}}.manifest-footer[data-v-2d680a6e]{background-color:var(--paper);border-top:1px solid var(--rule);margin-top:auto;padding:1.5rem 1.25rem;width:100%}.footer-container[data-v-2d680a6e]{align-items:center;color:var(--ink-soft);display:flex;flex-wrap:wrap;font-family:var(--font-mono);font-size:.8rem;gap:.75rem;justify-content:space-between;margin:0 auto;max-width:900px}@media (max-width:768px){.footer-container[data-v-2d680a6e]{flex-direction:column;justify-content:center;text-align:center}}</style><link rel="preload" href="/_nuxt/static/1790625509/blog/state.js" as="script"><link rel="preload" href="/_nuxt/static/1790625509/blog/payload.js" as="script"><link rel="preload" href="/_nuxt/static/1790625509/manifest.js" as="script">
   </head>
   <body>
     <script data-n-head="ssr" data-hid="nuxt-color-mode-script" data-pbody="true">!function(){"use strict";var e=window,t=document,s=t.documentElement,r=["dark","light"],n=function(){for(var e="nuxt-color-mode=",s=t.cookie.split(";"),r=0;r<s.length;r++){for(var n=s[r];" "===n.charAt(0);)n=n.substring(1,n.length);if(0===n.indexOf(e))return n.substring(16,n.length)}return null}()||"system",a="system"===n?i():n;function c(e){var t=e+"-mode";s.classList?s.classList.add(t):s.className+=" "+t}function o(t){return e.matchMedia("(prefers-color-scheme"+t+")")}function i(){if(e.matchMedia&&"not all"!==o("").media)for(var t of r)if(o(":"+t).matches)return t;return"light"}c(a),e.__NUXT_COLOR_MODE__={preference:n,value:a,getColorScheme:i,addClass:c,removeClass:function(e){var t=e+"-mode";s.classList?s.classList.remove(t):s.className=s.className.replace(new RegExp(t,"g"),"")}}}()</script><div data-server-rendered="true" id="__nuxt"><!----><div id="__layout"><div class="site-layout" data-v-83acdd40><header class="site-header" data-v-27557ac3 data-v-83acdd40><div class="site-nav-container" data-v-27557ac3><div class="site-brand" data-v-27557ac3><a href="/" class="brand-link nuxt-link-active" data-v-27557ac3>
@@ -18,300 +18,322 @@
           EN
         </a></div> <button type="button" title="Switch to Dark Mode" aria-label="Switch to Dark Mode" class="theme-toggle-btn" data-v-27557ac3><svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="theme-icon" data-v-27557ac3><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z" data-v-27557ac3></path></svg></button></div> <div class="mobile-menu-trigger d-flex d-md-none" data-v-27557ac3><button type="button" aria-label="Toggle Navigation Menu" class="hamburger-btn" data-v-27557ac3><span class="hamburger-bar" data-v-27557ac3></span> <span class="hamburger-bar" data-v-27557ac3></span> <span class="hamburger-bar" data-v-27557ac3></span></button></div></div> <!----></header> <main class="site-main" data-v-83acdd40><div class="blog-container" data-v-83acdd40><nav aria-label="breadcrumb" class="breadcrumb-container" data-v-7bb4f422 data-v-83acdd40><ol class="breadcrumb-list" data-v-7bb4f422><li class="breadcrumb-item" data-v-7bb4f422><a href="/" class="breadcrumb-link nuxt-link-active" data-v-7bb4f422>
         Home
-      </a> <span class="breadcrumb-separator" data-v-7bb4f422>/</span></li><li class="breadcrumb-item active" data-v-7bb4f422><span class="breadcrumb-current" data-v-7bb4f422>Case Studies</span> <!----></li></ol></nav> <div class="blog-index-page" data-v-8417092a data-v-83acdd40><header class="blog-header-section" data-v-8417092a><div class="manifest-stamp mb-3" data-v-8417092a><span class="stamp-dot" data-v-8417092a>●</span>
+      </a> <span class="breadcrumb-separator" data-v-7bb4f422>/</span></li><li class="breadcrumb-item active" data-v-7bb4f422><span class="breadcrumb-current" data-v-7bb4f422>Case Studies</span> <!----></li></ol></nav> <div class="blog-index-page" data-v-247f81a7 data-v-83acdd40><header class="blog-header-section" data-v-247f81a7><div class="manifest-stamp mb-3" data-v-247f81a7><span class="stamp-dot" data-v-247f81a7>●</span>
       ARCHIVE & CASE STUDIES
-    </div> <h1 class="blog-main-title" data-v-8417092a>Case Studies & Technical Articles</h1> <p class="blog-main-subtitle" data-v-8417092a>Production post-mortems, architectural patterns, and engineering notes.</p></header> <section aria-label="Filter Articles" class="blog-filters-section" data-v-8417092a><div class="category-chips" data-v-8417092a><button type="button" class="category-btn active" data-v-8417092a>
+    </div> <h1 class="blog-main-title" data-v-247f81a7>Case Studies & Technical Articles</h1> <p class="blog-main-subtitle" data-v-247f81a7>Production post-mortems, architectural patterns, and engineering notes.</p></header> <section aria-label="Filter Articles" class="blog-filters-section" data-v-247f81a7><div class="category-chips" data-v-247f81a7><button type="button" class="category-btn active" data-v-247f81a7>
         All
-      </button><button type="button" class="category-btn" data-v-8417092a>
+      </button><button type="button" class="category-btn" data-v-247f81a7>
         Articles
-      </button><button type="button" class="category-btn" data-v-8417092a>
+      </button><button type="button" class="category-btn" data-v-247f81a7>
         Projects
-      </button></div> <div class="tag-filters" data-v-8417092a><span class="filter-label" data-v-8417092a>Tags:</span> <button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button></div> <div class="tag-filters" data-v-247f81a7><span class="filter-label" data-v-247f81a7>Tags:</span> <button type="button" class="tag-filter-pill" data-v-247f81a7>
         Architecture
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Azure Functions
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Azure Key Vault
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Beginner
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         CEFR
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Clean Architecture
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         CQRS
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Dart
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Data Pipeline
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         DevOps
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Docker
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         E-Commerce
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Flutter
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Full-Stack
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         German Learning
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Guide
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Hexagonal Architecture
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Image Processing
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Java
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         JWT
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Kubernetes
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Legacy Migration
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Materialized Views
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Microservices
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Mobile
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         mTLS
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         orjson
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Performance
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         PIM
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Pinia
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         PostgreSQL
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Python
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Quarkus
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Security
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Serverless
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         SFTP
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Software Development
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Spring Boot
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         sqflite_sqlcipher
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         SQLite
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Tailwind CSS
-      </button><button type="button" class="tag-filter-pill" data-v-8417092a>
+      </button><button type="button" class="tag-filter-pill" data-v-247f81a7>
         Vue.js
-      </button> <!----></div></section> <hr class="rule-divider" data-v-8417092a> <section aria-label="Article List" class="blog-ledger-section" data-v-8417092a><div class="ledger-container" data-v-8417092a><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+      </button> <!----></div></section> <hr class="rule-divider" data-v-247f81a7> <section aria-label="Article List" class="blog-ledger-section" data-v-247f81a7><div class="ledger-container" data-v-247f81a7><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 01
-          </span> <div class="post-date-mono" data-v-8417092a>2025-10-14</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/docker-in-practice" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2025-10-14</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Toolineo, 2024–Present
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/docker-in-practice" data-v-247f81a7>
               Docker Containers — Simplifying Development and Deployment
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             After many years in software development, I've learned: The most interesting projects aren't the perfect ones, but those where you have to deal with reality. Docker shows its true strength not in ideal microservices worlds, but in connecting legacy systems with modern architectures – just like Amazon did.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Docker
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 DevOps
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Microservices
-              </span></div> <a href="/projects/docker-in-practice" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/docker-in-practice" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 02
-          </span> <div class="post-date-mono" data-v-8417092a>2025-08-30</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/voting-system" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2025-08-30</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Personal Projects & Open Source, 2025–Present
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/voting-system" data-v-247f81a7>
               Chocolate for Peace — A Full-Stack Voting Platform for Charity
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             A chocolate brand that lets its customers decide where the donations go. I built the full platform: Spring Boot 3 backend with JWT auth and role-based access, Vue.js 3 frontend with Pinia, a separate admin panel, and a monthly vote-integrity system that makes the results trustworthy — not just technically, but in the eyes of the community.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Vue.js
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Spring Boot
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Full-Stack
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 JWT
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 PostgreSQL
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Pinia
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Tailwind CSS
-              </span></div> <a href="/projects/voting-system" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/voting-system" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 03
-          </span> <div class="post-date-mono" data-v-8417092a>2025-07-15</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/german-nouns" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2025-07-15</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Personal Projects & Open Source, 2025–Present
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/german-nouns" data-v-247f81a7>
               Artikel Meister — A Flutter App for Mastering German Articles
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             Der, die, das — the three words that defeat most German learners. I built a Flutter app to fix that: CEFR-levelled quiz sessions (A1–B1), full noun declension tables with all four cases, multilingual hints in English, French and Arabic, and a 70%-pass unlock system that keeps learners moving forward without overwhelming them.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Flutter
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Dart
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 SQLite
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 CEFR
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 German Learning
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Mobile
-              </span></div> <a href="/projects/german-nouns" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/german-nouns" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 04
-          </span> <div class="post-date-mono" data-v-8417092a>2025-09-01</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/german-words-app" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2025-09-01</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Personal Projects & Open Source, 2025–Present
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/german-words-app" data-v-247f81a7>
               German Word App — Nouns, Verbs & Adjectives from A1 to C2
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             6,322 German words. Three word types. Six CEFR levels. This Flutter app covers nouns, verbs, and adjectives from absolute beginner to near-native — with verb conjugation exercises across Präsens, Perfekt and Präteritum, adjective comparative and superlative drills, an encrypted SQLite database, and a favourites system that lets learners build their own personal word list.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Flutter
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Dart
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 SQLite
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 CEFR
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 German Learning
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Mobile
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 sqflite_sqlcipher
-              </span></div> <a href="/projects/german-words-app" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/german-words-app" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 05
-          </span> <div class="post-date-mono" data-v-8417092a>2025-06-20</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/my-journey-into-ecommerce" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2025-06-20</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Soft Solutions / E-Commerce, 2009–2019
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/my-journey-into-ecommerce" data-v-247f81a7>
               What Is E-Commerce? A Beginner's Guide
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             An introductory guide to e-commerce models, technical foundations, and platform choices, including B2B, B2C, and enterprise solutions.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 E-Commerce
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Beginner
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Guide
-              </span></div> <a href="/projects/my-journey-into-ecommerce" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/my-journey-into-ecommerce" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 06
-          </span> <div class="post-date-mono" data-v-8417092a>2025-10-16</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/azure-functions-in-practice" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2025-10-16</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Toolineo, 2024–Present
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/azure-functions-in-practice" data-v-247f81a7>
               Azure Functions in Practice: Automated Image Processing in E-Commerce
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             A detailed case study on using Azure Functions for automatic image resizing in an e-commerce platform, covering architecture, implementation, and lessons learned about serverless computing.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Azure Functions
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Serverless
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 E-Commerce
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Image Processing
-              </span></div> <a href="/projects/azure-functions-in-practice" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/azure-functions-in-practice" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 07
-          </span> <div class="post-date-mono" data-v-8417092a>2025-10-22</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/hexagonal-architecture-in-practice" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2025-10-22</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Architecture & Engineering Practice
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/hexagonal-architecture-in-practice" data-v-247f81a7>
               Hexagonal Architecture in Practice: Why Less Changes Than You Think
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             After 15 years of software development, a surprising realization: modern architecture concepts like Hexagonal Architecture, Clean Architecture, or Ports & Adapters are not a revolution—they merely rename time-tested principles.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Software Development
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Architecture
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Hexagonal Architecture
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Clean Architecture
-              </span></div> <a href="/projects/hexagonal-architecture-in-practice" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/hexagonal-architecture-in-practice" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 08
-          </span> <div class="post-date-mono" data-v-8417092a>2026-01-15</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/catalogforge-pim-pipeline" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2026-01-15</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Toolineo, 2019–2022
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/catalogforge-pim-pipeline" data-v-247f81a7>
               CatalogForge — Building a PIM Data Pipeline That Actually Handles Scale
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             A PIM export is a multi-gigabyte NDJSON file. The team needs 200 enriched products from an Excel list, in minutes, reliably. Here is how I built the pipeline: SFTP with smart caching, byte-level GTIN filtering with leading-zero normalisation, memoised category tree resolution, and threaded enrichment in a single pass with orjson.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Python
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 PIM
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Data Pipeline
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 orjson
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 SFTP
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 E-Commerce
-              </span></div> <a href="/projects/catalogforge-pim-pipeline" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/catalogforge-pim-pipeline" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 09
-          </span> <div class="post-date-mono" data-v-8417092a>2026-09-12</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/mtls-war-story" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2026-09-12</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Toolineo, 2024–Present
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/mtls-war-story" data-v-247f81a7>
               The mTLS War Story: A Trust Store, Two Secret Managers, and a Password That Isn't Supposed to Exist
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             A payment provider required mutual TLS. What looked like 'just add a certificate' turned into a trust-store gotcha that could break every other HTTPS call in the JVM, two competing secret-sync mechanisms quietly coexisting in the same cluster, and a keystore password Azure Key Vault throws away by design.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 mTLS
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Kubernetes
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Security
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Azure Key Vault
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Java
-              </span></div> <a href="/projects/mtls-war-story" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/mtls-war-story" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 10
-          </span> <div class="post-date-mono" data-v-8417092a>2026-06-22</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/best-offer-view-under-crawler-load" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2026-06-22</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Toolineo, 2024–Present
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/best-offer-view-under-crawler-load" data-v-247f81a7>
               Keeping a Best-Offer View Fresh Under Crawler Load: CQRS, Read Replicas, and the Blue-Green Swap
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             How separating writes from reads, and swapping tables instead of updating in place, kept price and stock data fresh on a heavily-crawled product catalog.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Architecture
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 CQRS
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Materialized Views
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 PostgreSQL
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Quarkus
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Performance
-              </span></div> <a href="/projects/best-offer-view-under-crawler-load" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/best-offer-view-under-crawler-load" class="ledger-link" data-v-247f81a7>
               Read Case Study →
-            </a></div></div></article><article class="ledger-row" data-v-8417092a><div class="ledger-date" data-v-8417092a><span class="manifest-stamp case-stamp" data-v-8417092a>
+            </a></div></div></article><article class="ledger-row" data-v-247f81a7><div class="ledger-date" data-v-247f81a7><span class="manifest-stamp case-stamp" data-v-247f81a7>
             CASE 11
-          </span> <div class="post-date-mono" data-v-8417092a>2026-06-22</div></div> <div class="ledger-body" data-v-8417092a><h2 class="ledger-title" data-v-8417092a><a href="/projects/strangler-fig-pattern-in-practice" data-v-8417092a>
+          </span> <div class="post-date-mono" data-v-247f81a7>2026-06-22</div></div> <div class="ledger-body" data-v-247f81a7><div class="job-era-badge-row" data-v-247f81a7><span class="job-era-tag" data-v-247f81a7><span class="job-era-label" data-v-247f81a7>Belongs to:</span>
+              Toolineo, 2024–Present
+            </span></div> <h2 class="ledger-title" data-v-247f81a7><a href="/projects/strangler-fig-pattern-in-practice" data-v-247f81a7>
               The Strangler Fig Pattern in Practice: Retiring a Legacy Pricing Engine Without a Big-Bang Rewrite
-            </a></h2> <p class="ledger-desc" data-v-8417092a>
+            </a></h2> <p class="ledger-desc" data-v-247f81a7>
             How a facade-and-redirect strategy let a 12-year-old pricing monolith get replaced piece by piece, with checkout never going dark.
-          </p> <div class="ledger-meta-row" data-v-8417092a><div class="ledger-tags" data-v-8417092a><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+          </p> <div class="ledger-meta-row" data-v-247f81a7><div class="ledger-tags" data-v-247f81a7><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Architecture
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Microservices
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Java
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Quarkus
-              </span><span class="tag-pill" style="cursor:pointer" data-v-8417092a>
+              </span><span class="tag-pill" style="cursor:pointer" data-v-247f81a7>
                 Legacy Migration
-              </span></div> <a href="/projects/strangler-fig-pattern-in-practice" class="ledger-link" data-v-8417092a>
+              </span></div> <a href="/projects/strangler-fig-pattern-in-practice" class="ledger-link" data-v-247f81a7>
               Read Case Study →
             </a></div></div></article></div></section></div></div></main> <footer class="manifest-footer" data-v-2d680a6e data-v-83acdd40><div class="footer-container" data-v-2d680a6e><div class="footer-copy" data-v-2d680a6e>© 2026 Jalal El Saddi</div> <div class="footer-updated" data-v-2d680a6e>
-      Last updated: September 24, 2026 at 05:07:27 PM
-    </div></div></footer></div></div></div><script defer src="/_nuxt/static/1790269647/blog/state.js"></script><script src="/_nuxt/024c560.js" defer></script><script src="/_nuxt/382d9ce.js" defer></script><script src="/_nuxt/10f4116.js" defer></script><script src="/_nuxt/8b5a108.js" defer></script><script src="/_nuxt/a3a86a1.js" defer></script>
+      Last updated: September 28, 2026 at 07:58:29 PM
+    </div></div></footer></div></div></div><script defer src="/_nuxt/static/1790625509/blog/state.js"></script><script src="/_nuxt/7d4fb9e.js" defer></script><script src="/_nuxt/c2d8280.js" defer></script><script src="/_nuxt/4d15318.js" defer></script><script src="/_nuxt/2f9c4c0.js" defer></script><script src="/_nuxt/425cb15.js" defer></script>
   </body>
 </html>

@@ -1,1 +1,0 @@
-__NUXT_JSONP__("/projects/mein-weg-in-den-e-commerce", (function(a){return {data:[{meta:{title:"mein-weg-in-den-e-commerce",description:a,image:a,date:a,tags:[]},html:a}],fetch:{},mutations:void 0}}("")));

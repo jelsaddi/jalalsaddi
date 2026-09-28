@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/de/projects/my-journey-into-ecommerce", (function(a){return {data:[{meta:{title:"my-journey-into-ecommerce",description:a,image:a,date:a,jobEra:a,tags:[]},html:a}],fetch:{},mutations:void 0}}("")));
