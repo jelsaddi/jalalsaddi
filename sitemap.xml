@@ -32,14 +32,14 @@
   </url>
   <url>
     <loc>https://jalalsaddi.de/blog/</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://jalalsaddi.de/blog/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://jalalsaddi.de/de/blog/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jalalsaddi.de/blog/" />
   </url>
   <url>
     <loc>https://jalalsaddi.de/de/blog/</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-14</lastmod>
     <xhtml:link rel="alternate" hreflang="en" href="https://jalalsaddi.de/blog/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://jalalsaddi.de/de/blog/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jalalsaddi.de/blog/" />
@@ -197,5 +197,19 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://jalalsaddi.de/projects/strangler-fig-pattern-in-practice/" />
     <xhtml:link rel="alternate" hreflang="de" href="https://jalalsaddi.de/de/projects/strangler-fig-pattern-in-practice/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://jalalsaddi.de/projects/strangler-fig-pattern-in-practice/" />
+  </url>
+  <url>
+    <loc>https://jalalsaddi.de/projects/withdrawal-relay-that-remembers-nothing/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jalalsaddi.de/projects/withdrawal-relay-that-remembers-nothing/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jalalsaddi.de/de/projects/withdrawal-relay-that-remembers-nothing/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jalalsaddi.de/projects/withdrawal-relay-that-remembers-nothing/" />
+  </url>
+  <url>
+    <loc>https://jalalsaddi.de/de/projects/withdrawal-relay-that-remembers-nothing/</loc>
+    <lastmod>2026-09-14</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jalalsaddi.de/projects/withdrawal-relay-that-remembers-nothing/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://jalalsaddi.de/de/projects/withdrawal-relay-that-remembers-nothing/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://jalalsaddi.de/projects/withdrawal-relay-that-remembers-nothing/" />
   </url>
 </urlset>
