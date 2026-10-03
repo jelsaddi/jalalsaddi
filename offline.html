@@ -7,13 +7,6 @@
   <meta name="description" content="Full-Stack Developer with 15+ years in enterprise e-commerce, Java backends, and modern frontend frameworks." />
   <meta name="robots" content="noindex" />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:wght@700;800&family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet" />
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" crossorigin="anonymous" />
-
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 
@@ -32,7 +25,7 @@
 
     html, body {
       width: 100%; height: 100%;
-      font-family: 'Open Sans', sans-serif;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
       background: var(--bg);
       color: var(--text);
     }
@@ -83,7 +76,7 @@
 
     /* ── NAME ─────────────────────────────────────────────── */
     .name {
-      font-family: 'Saira Extra Condensed', sans-serif;
+      font-family: Georgia, 'Times New Roman', serif;
       font-size: 2.2rem;
       font-weight: 800;
       color: var(--purple);
@@ -253,7 +246,7 @@
       font-weight: 600;
       cursor: pointer;
       transition: background 0.2s, border-color 0.2s;
-      font-family: 'Open Sans', sans-serif;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
     }
 
     .btn-retry:hover {
@@ -298,24 +291,23 @@
     </p>
 
     <div class="offline-notice">
-      <i class="fas fa-wifi"></i>
       Site temporarily unavailable — try again shortly
     </div>
 
     <div class="contact">
       <a href="mailto:jalalsaddi@gmail.com">
-        <i class="fas fa-envelope"></i> jalalsaddi@gmail.com
+        jalalsaddi@gmail.com
       </a>
     </div>
 
     <div class="actions">
       <a href="https://jalalsaddi.de" class="btn btn-primary">
-        <i class="fas fa-sync-alt"></i> Try Again
+        Try Again
       </a>
       <a href="https://www.linkedin.com/in/jalal-saddi-58750662/"
          target="_blank" rel="noopener"
          class="btn btn-outline">
-        <i class="fab fa-linkedin"></i> LinkedIn
+        LinkedIn
       </a>
     </div>
 
@@ -324,14 +316,13 @@
     <footer class="socials">
       <a href="https://www.linkedin.com/in/jalal-saddi-58750662/"
          target="_blank" rel="noopener" aria-label="LinkedIn">
-        <i class="fab fa-linkedin"></i>
-      </a>
+        </a>
     </footer>
 
     <div class="retry-wrap">
       <p>Page will auto-retry in <span id="countdown">30</span>s</p>
       <button class="btn-retry" onclick="retryNow()">
-        <i class="fas fa-redo"></i> Retry now
+        Retry now
       </button>
     </div>
 
